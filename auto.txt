@@ -1,4 +1,4 @@
-wait(1)
+wait(0.5)
 
 loadstring(game:HttpGet('https://raw.githubusercontent.com/wicorn29/bloxtab/refs/heads/main/topbarapp.lua'))()
 
