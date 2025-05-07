@@ -1,269 +1,621 @@
 
-local g47551d743961a8g43eh = {
-	b42g87g = Instance.new("ScreenGui"),
-	b10ehb2176e6dcfgc1d9b647 = Instance.new("Frame"),
-	d4g1e87h5e745bf1773d90g5e67 = Instance.new("TextButton"),
-	h8369h0dh3ga83e6029c3 = Instance.new("Folder"),
-	h6de1d5g1c8fbg204d06bhgeg48e6g59 = Instance.new("Frame"),
-	f1ag89225he3efcd9b9fhf = Instance.new("TextButton"),
-	h5671d = Instance.new("TextButton"),
-	acba165ga = Instance.new("TextButton"),
-	g028bh7bh = Instance.new("TextButton"),
-	ce59df894 = Instance.new("Folder"),
-	gfhh8147a85fef0780bfdh = Instance.new("BoolValue"),
+local bhc834g99c = {
+	aca4dga496308fdd86a5200cb5f = Instance.new("ScreenGui"),
+	f41ch9gag6ghah1ac15c7b30d334b = Instance.new("Frame"),
+	c770cd627 = Instance.new("TextButton"),
+	ga4ce3ghe07 = Instance.new("TextButton"),
+	a7c5d2ch77f7 = Instance.new("TextButton"),
+	hhed4102dg7cg00h1eg = Instance.new("Folder"),
+	gg623 = Instance.new("Frame"),
+	e8hf9b58hd3f2bce0ac49e227d1b41 = Instance.new("TextButton"),
+	b51h4b0906ah1f8b = Instance.new("TextButton"),
+	bfda5hg39habe = Instance.new("TextButton"),
+	ge5b4d8ghf4373cag0gf3357f = Instance.new("TextButton"),
+	cd19h90 = Instance.new("Frame"),
+	g1d509f7gb0306af990835f682d8 = Instance.new("TextButton"),
+	fc8703dc4e50g6cdeg91421714 = Instance.new("TextButton"),
+	ga46af14145f7 = Instance.new("TextButton"),
+	e1ah2d2e77gc71dede10 = Instance.new("Frame"),
+	ba3eh9g9e8ea113389 = Instance.new("TextButton"),
+	c02899efd4220g5aa74a37b5da70h93 = Instance.new("TextButton"),
+	d701782g = Instance.new("TextButton"),
+	dc29ae16h4d5617285b314 = Instance.new("Folder"),
+	g59b8579 = Instance.new("BoolValue"),
 }
 
-g47551d743961a8g43eh.b42g87g.Name = "TopBarBlocker"
-g47551d743961a8g43eh.b42g87g.Parent = game:GetService("CoreGui")
-g47551d743961a8g43eh.b42g87g.SafeAreaCompatibility = Enum.SafeAreaCompatibility.FullscreenExtension
-g47551d743961a8g43eh.b42g87g.ClipToDeviceSafeArea = true
-g47551d743961a8g43eh.b42g87g.IgnoreGuiInset = true
-g47551d743961a8g43eh.b42g87g.ScreenInsets = Enum.ScreenInsets.DeviceSafeInsets
-g47551d743961a8g43eh.b42g87g.DisplayOrder = 0
+bhc834g99c.aca4dga496308fdd86a5200cb5f.Name = "TopBarBlocker"
+bhc834g99c.aca4dga496308fdd86a5200cb5f.Parent = game:GetService("CoreGui")
+bhc834g99c.aca4dga496308fdd86a5200cb5f.SafeAreaCompatibility = Enum.SafeAreaCompatibility.FullscreenExtension
+bhc834g99c.aca4dga496308fdd86a5200cb5f.ClipToDeviceSafeArea = true
+bhc834g99c.aca4dga496308fdd86a5200cb5f.IgnoreGuiInset = true
+bhc834g99c.aca4dga496308fdd86a5200cb5f.ScreenInsets = Enum.ScreenInsets.DeviceSafeInsets
+bhc834g99c.aca4dga496308fdd86a5200cb5f.DisplayOrder = 0
 
-g47551d743961a8g43eh.b10ehb2176e6dcfgc1d9b647.Name = "TopBAR"
-g47551d743961a8g43eh.b10ehb2176e6dcfgc1d9b647.Parent = g47551d743961a8g43eh.b42g87g
-g47551d743961a8g43eh.b10ehb2176e6dcfgc1d9b647.LayoutOrder = 0
-g47551d743961a8g43eh.b10ehb2176e6dcfgc1d9b647.Active = false
-g47551d743961a8g43eh.b10ehb2176e6dcfgc1d9b647.Interactable = true
-g47551d743961a8g43eh.b10ehb2176e6dcfgc1d9b647.AnchorPoint = Vector2.new(0, 0)
-g47551d743961a8g43eh.b10ehb2176e6dcfgc1d9b647.Visible = true
-g47551d743961a8g43eh.b10ehb2176e6dcfgc1d9b647.ZIndex = 10
-g47551d743961a8g43eh.b10ehb2176e6dcfgc1d9b647.AutomaticSize = Enum.AutomaticSize.None
-g47551d743961a8g43eh.b10ehb2176e6dcfgc1d9b647.Size = UDim2.new(1, 0, 0, 36)
-g47551d743961a8g43eh.b10ehb2176e6dcfgc1d9b647.Draggable = false
-g47551d743961a8g43eh.b10ehb2176e6dcfgc1d9b647.SizeConstraint = Enum.SizeConstraint.RelativeXY
-g47551d743961a8g43eh.b10ehb2176e6dcfgc1d9b647.ClipsDescendants = false
-g47551d743961a8g43eh.b10ehb2176e6dcfgc1d9b647.BorderColor3 = Color3.new(0, 0, 0)
-g47551d743961a8g43eh.b10ehb2176e6dcfgc1d9b647.Selectable = false
-g47551d743961a8g43eh.b10ehb2176e6dcfgc1d9b647.BorderSizePixel = 1
-g47551d743961a8g43eh.b10ehb2176e6dcfgc1d9b647.Rotation = 0
-g47551d743961a8g43eh.b10ehb2176e6dcfgc1d9b647.BackgroundTransparency = 0
-g47551d743961a8g43eh.b10ehb2176e6dcfgc1d9b647.Position = UDim2.new(0, 0, 0, 0)
-g47551d743961a8g43eh.b10ehb2176e6dcfgc1d9b647.BorderMode = Enum.BorderMode.Outline
-g47551d743961a8g43eh.b10ehb2176e6dcfgc1d9b647.BackgroundColor3 = Color3.new(0, 0, 0)
-g47551d743961a8g43eh.b10ehb2176e6dcfgc1d9b647.Style = Enum.FrameStyle.Custom
+bhc834g99c.f41ch9gag6ghah1ac15c7b30d334b.Name = "TopBAR"
+bhc834g99c.f41ch9gag6ghah1ac15c7b30d334b.Parent = bhc834g99c.aca4dga496308fdd86a5200cb5f
+bhc834g99c.f41ch9gag6ghah1ac15c7b30d334b.LayoutOrder = 0
+bhc834g99c.f41ch9gag6ghah1ac15c7b30d334b.Active = false
+bhc834g99c.f41ch9gag6ghah1ac15c7b30d334b.Interactable = true
+bhc834g99c.f41ch9gag6ghah1ac15c7b30d334b.AnchorPoint = Vector2.new(0, 0)
+bhc834g99c.f41ch9gag6ghah1ac15c7b30d334b.Visible = true
+bhc834g99c.f41ch9gag6ghah1ac15c7b30d334b.ZIndex = 10
+bhc834g99c.f41ch9gag6ghah1ac15c7b30d334b.AutomaticSize = Enum.AutomaticSize.None
+bhc834g99c.f41ch9gag6ghah1ac15c7b30d334b.Size = UDim2.new(1, 0, 0, 36)
+bhc834g99c.f41ch9gag6ghah1ac15c7b30d334b.Draggable = false
+bhc834g99c.f41ch9gag6ghah1ac15c7b30d334b.SizeConstraint = Enum.SizeConstraint.RelativeXY
+bhc834g99c.f41ch9gag6ghah1ac15c7b30d334b.ClipsDescendants = false
+bhc834g99c.f41ch9gag6ghah1ac15c7b30d334b.BorderColor3 = Color3.new(0, 0, 0)
+bhc834g99c.f41ch9gag6ghah1ac15c7b30d334b.Selectable = false
+bhc834g99c.f41ch9gag6ghah1ac15c7b30d334b.BorderSizePixel = 1
+bhc834g99c.f41ch9gag6ghah1ac15c7b30d334b.Rotation = 0
+bhc834g99c.f41ch9gag6ghah1ac15c7b30d334b.BackgroundTransparency = 0
+bhc834g99c.f41ch9gag6ghah1ac15c7b30d334b.Position = UDim2.new(0, 0, 0, 0)
+bhc834g99c.f41ch9gag6ghah1ac15c7b30d334b.BorderMode = Enum.BorderMode.Outline
+bhc834g99c.f41ch9gag6ghah1ac15c7b30d334b.BackgroundColor3 = Color3.new(0, 0, 0)
+bhc834g99c.f41ch9gag6ghah1ac15c7b30d334b.Style = Enum.FrameStyle.Custom
 
-g47551d743961a8g43eh.d4g1e87h5e745bf1773d90g5e67.Name = "main"
-g47551d743961a8g43eh.d4g1e87h5e745bf1773d90g5e67.Parent = g47551d743961a8g43eh.b10ehb2176e6dcfgc1d9b647
-g47551d743961a8g43eh.d4g1e87h5e745bf1773d90g5e67.AutoButtonColor = true
-g47551d743961a8g43eh.d4g1e87h5e745bf1773d90g5e67.LayoutOrder = 0
-g47551d743961a8g43eh.d4g1e87h5e745bf1773d90g5e67.Active = true
-g47551d743961a8g43eh.d4g1e87h5e745bf1773d90g5e67.Interactable = true
-g47551d743961a8g43eh.d4g1e87h5e745bf1773d90g5e67.AnchorPoint = Vector2.new(0, 0)
-g47551d743961a8g43eh.d4g1e87h5e745bf1773d90g5e67.Visible = true
-g47551d743961a8g43eh.d4g1e87h5e745bf1773d90g5e67.ZIndex = 11
-g47551d743961a8g43eh.d4g1e87h5e745bf1773d90g5e67.AutomaticSize = Enum.AutomaticSize.None
-g47551d743961a8g43eh.d4g1e87h5e745bf1773d90g5e67.Size = UDim2.new(0.00797448121, 300, 1, 0)
-g47551d743961a8g43eh.d4g1e87h5e745bf1773d90g5e67.Draggable = false
-g47551d743961a8g43eh.d4g1e87h5e745bf1773d90g5e67.SizeConstraint = Enum.SizeConstraint.RelativeXY
-g47551d743961a8g43eh.d4g1e87h5e745bf1773d90g5e67.ClipsDescendants = false
-g47551d743961a8g43eh.d4g1e87h5e745bf1773d90g5e67.BorderColor3 = Color3.new(0, 0, 0)
-g47551d743961a8g43eh.d4g1e87h5e745bf1773d90g5e67.Selectable = true
-g47551d743961a8g43eh.d4g1e87h5e745bf1773d90g5e67.BorderSizePixel = 1
-g47551d743961a8g43eh.d4g1e87h5e745bf1773d90g5e67.Rotation = 0
-g47551d743961a8g43eh.d4g1e87h5e745bf1773d90g5e67.BackgroundTransparency = 1
-g47551d743961a8g43eh.d4g1e87h5e745bf1773d90g5e67.Position = UDim2.new(0, 0, 0, 0)
-g47551d743961a8g43eh.d4g1e87h5e745bf1773d90g5e67.BorderMode = Enum.BorderMode.Outline
-g47551d743961a8g43eh.d4g1e87h5e745bf1773d90g5e67.BackgroundColor3 = Color3.new(0, 0, 0)
-g47551d743961a8g43eh.d4g1e87h5e745bf1773d90g5e67.TextDirection = Enum.TextDirection.Auto
-g47551d743961a8g43eh.d4g1e87h5e745bf1773d90g5e67.TextStrokeColor3 = Color3.new(0, 0, 0)
-g47551d743961a8g43eh.d4g1e87h5e745bf1773d90g5e67.TextStrokeTransparency = 1
-g47551d743961a8g43eh.d4g1e87h5e745bf1773d90g5e67.TextTruncate = Enum.TextTruncate.None
-g47551d743961a8g43eh.d4g1e87h5e745bf1773d90g5e67.RichText = false
-g47551d743961a8g43eh.d4g1e87h5e745bf1773d90g5e67.TextColor3 = Color3.new(1, 1, 1)
-g47551d743961a8g43eh.d4g1e87h5e745bf1773d90g5e67.TextYAlignment = Enum.TextYAlignment.Center
-g47551d743961a8g43eh.d4g1e87h5e745bf1773d90g5e67.Text = "ROBLOX > "
-g47551d743961a8g43eh.d4g1e87h5e745bf1773d90g5e67.FontFace = Font.new("rbxasset://fonts/families/LegacyArial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
-g47551d743961a8g43eh.d4g1e87h5e745bf1773d90g5e67.TextWrapped = true
-g47551d743961a8g43eh.d4g1e87h5e745bf1773d90g5e67.TextTransparency = 0
-g47551d743961a8g43eh.d4g1e87h5e745bf1773d90g5e67.TextXAlignment = Enum.TextXAlignment.Left
-g47551d743961a8g43eh.d4g1e87h5e745bf1773d90g5e67.MaxVisibleGraphemes = -1
-g47551d743961a8g43eh.d4g1e87h5e745bf1773d90g5e67.TextScaled = true
+bhc834g99c.c770cd627.Name = "main"
+bhc834g99c.c770cd627.Parent = bhc834g99c.f41ch9gag6ghah1ac15c7b30d334b
+bhc834g99c.c770cd627.AutoButtonColor = true
+bhc834g99c.c770cd627.LayoutOrder = 0
+bhc834g99c.c770cd627.Active = true
+bhc834g99c.c770cd627.Interactable = true
+bhc834g99c.c770cd627.AnchorPoint = Vector2.new(0, 0)
+bhc834g99c.c770cd627.Visible = true
+bhc834g99c.c770cd627.ZIndex = 11
+bhc834g99c.c770cd627.AutomaticSize = Enum.AutomaticSize.None
+bhc834g99c.c770cd627.Size = UDim2.new(0.00797448121, 300, 1, 0)
+bhc834g99c.c770cd627.Draggable = false
+bhc834g99c.c770cd627.SizeConstraint = Enum.SizeConstraint.RelativeXY
+bhc834g99c.c770cd627.ClipsDescendants = false
+bhc834g99c.c770cd627.BorderColor3 = Color3.new(0, 0, 0)
+bhc834g99c.c770cd627.Selectable = true
+bhc834g99c.c770cd627.BorderSizePixel = 1
+bhc834g99c.c770cd627.Rotation = 0
+bhc834g99c.c770cd627.BackgroundTransparency = 1
+bhc834g99c.c770cd627.Position = UDim2.new(0, 0, 0, 0)
+bhc834g99c.c770cd627.BorderMode = Enum.BorderMode.Outline
+bhc834g99c.c770cd627.BackgroundColor3 = Color3.new(0, 0, 0)
+bhc834g99c.c770cd627.TextDirection = Enum.TextDirection.Auto
+bhc834g99c.c770cd627.TextStrokeColor3 = Color3.new(0, 0, 0)
+bhc834g99c.c770cd627.TextStrokeTransparency = 1
+bhc834g99c.c770cd627.TextTruncate = Enum.TextTruncate.None
+bhc834g99c.c770cd627.RichText = false
+bhc834g99c.c770cd627.TextColor3 = Color3.new(1, 1, 1)
+bhc834g99c.c770cd627.TextYAlignment = Enum.TextYAlignment.Center
+bhc834g99c.c770cd627.Text = "ROBLOX > "
+bhc834g99c.c770cd627.FontFace = Font.new("rbxasset://fonts/families/LegacyArial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+bhc834g99c.c770cd627.TextWrapped = true
+bhc834g99c.c770cd627.TextTransparency = 0
+bhc834g99c.c770cd627.TextXAlignment = Enum.TextXAlignment.Left
+bhc834g99c.c770cd627.MaxVisibleGraphemes = -1
+bhc834g99c.c770cd627.TextScaled = true
 
-g47551d743961a8g43eh.h8369h0dh3ga83e6029c3.Name = "Menus"
-g47551d743961a8g43eh.h8369h0dh3ga83e6029c3.Parent = g47551d743961a8g43eh.b42g87g
+bhc834g99c.ga4ce3ghe07.Name = "player"
+bhc834g99c.ga4ce3ghe07.Parent = bhc834g99c.f41ch9gag6ghah1ac15c7b30d334b
+bhc834g99c.ga4ce3ghe07.AutoButtonColor = true
+bhc834g99c.ga4ce3ghe07.LayoutOrder = 0
+bhc834g99c.ga4ce3ghe07.Active = true
+bhc834g99c.ga4ce3ghe07.Interactable = true
+bhc834g99c.ga4ce3ghe07.AnchorPoint = Vector2.new(0, 0)
+bhc834g99c.ga4ce3ghe07.Visible = true
+bhc834g99c.ga4ce3ghe07.ZIndex = 11
+bhc834g99c.ga4ce3ghe07.AutomaticSize = Enum.AutomaticSize.None
+bhc834g99c.ga4ce3ghe07.Size = UDim2.new(-0.223558038, 300, 1, 0)
+bhc834g99c.ga4ce3ghe07.Draggable = false
+bhc834g99c.ga4ce3ghe07.SizeConstraint = Enum.SizeConstraint.RelativeXY
+bhc834g99c.ga4ce3ghe07.ClipsDescendants = false
+bhc834g99c.ga4ce3ghe07.BorderColor3 = Color3.new(0, 0, 0)
+bhc834g99c.ga4ce3ghe07.Selectable = true
+bhc834g99c.ga4ce3ghe07.BorderSizePixel = 1
+bhc834g99c.ga4ce3ghe07.Rotation = 0
+bhc834g99c.ga4ce3ghe07.BackgroundTransparency = 1
+bhc834g99c.ga4ce3ghe07.Position = UDim2.new(0.382579982, 0, -0.027777778, 0)
+bhc834g99c.ga4ce3ghe07.BorderMode = Enum.BorderMode.Outline
+bhc834g99c.ga4ce3ghe07.BackgroundColor3 = Color3.new(0, 0, 0)
+bhc834g99c.ga4ce3ghe07.TextDirection = Enum.TextDirection.Auto
+bhc834g99c.ga4ce3ghe07.TextStrokeColor3 = Color3.new(0, 0, 0)
+bhc834g99c.ga4ce3ghe07.TextStrokeTransparency = 1
+bhc834g99c.ga4ce3ghe07.TextTruncate = Enum.TextTruncate.None
+bhc834g99c.ga4ce3ghe07.RichText = false
+bhc834g99c.ga4ce3ghe07.TextColor3 = Color3.new(1, 1, 1)
+bhc834g99c.ga4ce3ghe07.TextYAlignment = Enum.TextYAlignment.Center
+bhc834g99c.ga4ce3ghe07.Text = "Player"
+bhc834g99c.ga4ce3ghe07.FontFace = Font.new("rbxasset://fonts/families/LegacyArial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+bhc834g99c.ga4ce3ghe07.TextWrapped = true
+bhc834g99c.ga4ce3ghe07.TextTransparency = 0
+bhc834g99c.ga4ce3ghe07.TextXAlignment = Enum.TextXAlignment.Left
+bhc834g99c.ga4ce3ghe07.MaxVisibleGraphemes = -1
+bhc834g99c.ga4ce3ghe07.TextScaled = true
 
-g47551d743961a8g43eh.h6de1d5g1c8fbg204d06bhgeg48e6g59.Name = "main"
-g47551d743961a8g43eh.h6de1d5g1c8fbg204d06bhgeg48e6g59.Parent = g47551d743961a8g43eh.h8369h0dh3ga83e6029c3
-g47551d743961a8g43eh.h6de1d5g1c8fbg204d06bhgeg48e6g59.LayoutOrder = 0
-g47551d743961a8g43eh.h6de1d5g1c8fbg204d06bhgeg48e6g59.Active = false
-g47551d743961a8g43eh.h6de1d5g1c8fbg204d06bhgeg48e6g59.Interactable = true
-g47551d743961a8g43eh.h6de1d5g1c8fbg204d06bhgeg48e6g59.AnchorPoint = Vector2.new(0, 0)
-g47551d743961a8g43eh.h6de1d5g1c8fbg204d06bhgeg48e6g59.Visible = false
-g47551d743961a8g43eh.h6de1d5g1c8fbg204d06bhgeg48e6g59.ZIndex = 10
-g47551d743961a8g43eh.h6de1d5g1c8fbg204d06bhgeg48e6g59.AutomaticSize = Enum.AutomaticSize.None
-g47551d743961a8g43eh.h6de1d5g1c8fbg204d06bhgeg48e6g59.Size = UDim2.new(0, 180, 0, 144)
-g47551d743961a8g43eh.h6de1d5g1c8fbg204d06bhgeg48e6g59.Draggable = false
-g47551d743961a8g43eh.h6de1d5g1c8fbg204d06bhgeg48e6g59.SizeConstraint = Enum.SizeConstraint.RelativeXY
-g47551d743961a8g43eh.h6de1d5g1c8fbg204d06bhgeg48e6g59.ClipsDescendants = false
-g47551d743961a8g43eh.h6de1d5g1c8fbg204d06bhgeg48e6g59.BorderColor3 = Color3.new(0, 0, 0)
-g47551d743961a8g43eh.h6de1d5g1c8fbg204d06bhgeg48e6g59.Selectable = false
-g47551d743961a8g43eh.h6de1d5g1c8fbg204d06bhgeg48e6g59.BorderSizePixel = 0
-g47551d743961a8g43eh.h6de1d5g1c8fbg204d06bhgeg48e6g59.Rotation = 0
-g47551d743961a8g43eh.h6de1d5g1c8fbg204d06bhgeg48e6g59.BackgroundTransparency = 0
-g47551d743961a8g43eh.h6de1d5g1c8fbg204d06bhgeg48e6g59.Position = UDim2.new(0, 0, 0, 36)
-g47551d743961a8g43eh.h6de1d5g1c8fbg204d06bhgeg48e6g59.BorderMode = Enum.BorderMode.Outline
-g47551d743961a8g43eh.h6de1d5g1c8fbg204d06bhgeg48e6g59.BackgroundColor3 = Color3.new(0, 0, 0)
-g47551d743961a8g43eh.h6de1d5g1c8fbg204d06bhgeg48e6g59.Style = Enum.FrameStyle.Custom
+bhc834g99c.a7c5d2ch77f7.Name = "scripts"
+bhc834g99c.a7c5d2ch77f7.Parent = bhc834g99c.f41ch9gag6ghah1ac15c7b30d334b
+bhc834g99c.a7c5d2ch77f7.AutoButtonColor = true
+bhc834g99c.a7c5d2ch77f7.LayoutOrder = 0
+bhc834g99c.a7c5d2ch77f7.Active = true
+bhc834g99c.a7c5d2ch77f7.Interactable = true
+bhc834g99c.a7c5d2ch77f7.AnchorPoint = Vector2.new(0, 0)
+bhc834g99c.a7c5d2ch77f7.Visible = true
+bhc834g99c.a7c5d2ch77f7.ZIndex = 11
+bhc834g99c.a7c5d2ch77f7.AutomaticSize = Enum.AutomaticSize.None
+bhc834g99c.a7c5d2ch77f7.Size = UDim2.new(-0.223558038, 300, 1, 0)
+bhc834g99c.a7c5d2ch77f7.Draggable = false
+bhc834g99c.a7c5d2ch77f7.SizeConstraint = Enum.SizeConstraint.RelativeXY
+bhc834g99c.a7c5d2ch77f7.ClipsDescendants = false
+bhc834g99c.a7c5d2ch77f7.BorderColor3 = Color3.new(0, 0, 0)
+bhc834g99c.a7c5d2ch77f7.Selectable = true
+bhc834g99c.a7c5d2ch77f7.BorderSizePixel = 1
+bhc834g99c.a7c5d2ch77f7.Rotation = 0
+bhc834g99c.a7c5d2ch77f7.BackgroundTransparency = 1
+bhc834g99c.a7c5d2ch77f7.Position = UDim2.new(0.588754117, 0, 0, 0)
+bhc834g99c.a7c5d2ch77f7.BorderMode = Enum.BorderMode.Outline
+bhc834g99c.a7c5d2ch77f7.BackgroundColor3 = Color3.new(0, 0, 0)
+bhc834g99c.a7c5d2ch77f7.TextDirection = Enum.TextDirection.Auto
+bhc834g99c.a7c5d2ch77f7.TextStrokeColor3 = Color3.new(0, 0, 0)
+bhc834g99c.a7c5d2ch77f7.TextStrokeTransparency = 1
+bhc834g99c.a7c5d2ch77f7.TextTruncate = Enum.TextTruncate.None
+bhc834g99c.a7c5d2ch77f7.RichText = false
+bhc834g99c.a7c5d2ch77f7.TextColor3 = Color3.new(1, 1, 1)
+bhc834g99c.a7c5d2ch77f7.TextYAlignment = Enum.TextYAlignment.Center
+bhc834g99c.a7c5d2ch77f7.Text = "Script"
+bhc834g99c.a7c5d2ch77f7.FontFace = Font.new("rbxasset://fonts/families/LegacyArial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+bhc834g99c.a7c5d2ch77f7.TextWrapped = true
+bhc834g99c.a7c5d2ch77f7.TextTransparency = 0
+bhc834g99c.a7c5d2ch77f7.TextXAlignment = Enum.TextXAlignment.Left
+bhc834g99c.a7c5d2ch77f7.MaxVisibleGraphemes = -1
+bhc834g99c.a7c5d2ch77f7.TextScaled = true
 
-g47551d743961a8g43eh.f1ag89225he3efcd9b9fhf.Name = "Chat"
-g47551d743961a8g43eh.f1ag89225he3efcd9b9fhf.Parent = g47551d743961a8g43eh.h6de1d5g1c8fbg204d06bhgeg48e6g59
-g47551d743961a8g43eh.f1ag89225he3efcd9b9fhf.AutoButtonColor = true
-g47551d743961a8g43eh.f1ag89225he3efcd9b9fhf.LayoutOrder = 0
-g47551d743961a8g43eh.f1ag89225he3efcd9b9fhf.Active = true
-g47551d743961a8g43eh.f1ag89225he3efcd9b9fhf.Interactable = true
-g47551d743961a8g43eh.f1ag89225he3efcd9b9fhf.AnchorPoint = Vector2.new(0, 0)
-g47551d743961a8g43eh.f1ag89225he3efcd9b9fhf.Visible = true
-g47551d743961a8g43eh.f1ag89225he3efcd9b9fhf.ZIndex = 11
-g47551d743961a8g43eh.f1ag89225he3efcd9b9fhf.AutomaticSize = Enum.AutomaticSize.None
-g47551d743961a8g43eh.f1ag89225he3efcd9b9fhf.Size = UDim2.new(0, 180, 0, 29)
-g47551d743961a8g43eh.f1ag89225he3efcd9b9fhf.Draggable = false
-g47551d743961a8g43eh.f1ag89225he3efcd9b9fhf.SizeConstraint = Enum.SizeConstraint.RelativeXY
-g47551d743961a8g43eh.f1ag89225he3efcd9b9fhf.ClipsDescendants = false
-g47551d743961a8g43eh.f1ag89225he3efcd9b9fhf.BorderColor3 = Color3.new(0, 0, 0)
-g47551d743961a8g43eh.f1ag89225he3efcd9b9fhf.Selectable = true
-g47551d743961a8g43eh.f1ag89225he3efcd9b9fhf.BorderSizePixel = 0
-g47551d743961a8g43eh.f1ag89225he3efcd9b9fhf.Rotation = 0
-g47551d743961a8g43eh.f1ag89225he3efcd9b9fhf.BackgroundTransparency = 0
-g47551d743961a8g43eh.f1ag89225he3efcd9b9fhf.Position = UDim2.new(-0.00239223894, 0, -0.00464948034, 0)
-g47551d743961a8g43eh.f1ag89225he3efcd9b9fhf.BorderMode = Enum.BorderMode.Outline
-g47551d743961a8g43eh.f1ag89225he3efcd9b9fhf.BackgroundColor3 = Color3.new(0, 0, 0)
-g47551d743961a8g43eh.f1ag89225he3efcd9b9fhf.TextDirection = Enum.TextDirection.Auto
-g47551d743961a8g43eh.f1ag89225he3efcd9b9fhf.TextStrokeColor3 = Color3.new(0, 0, 0)
-g47551d743961a8g43eh.f1ag89225he3efcd9b9fhf.TextStrokeTransparency = 1
-g47551d743961a8g43eh.f1ag89225he3efcd9b9fhf.TextTruncate = Enum.TextTruncate.None
-g47551d743961a8g43eh.f1ag89225he3efcd9b9fhf.RichText = false
-g47551d743961a8g43eh.f1ag89225he3efcd9b9fhf.TextColor3 = Color3.new(0, 1, 0)
-g47551d743961a8g43eh.f1ag89225he3efcd9b9fhf.TextYAlignment = Enum.TextYAlignment.Center
-g47551d743961a8g43eh.f1ag89225he3efcd9b9fhf.Text = "Chat has crashed! :("
-g47551d743961a8g43eh.f1ag89225he3efcd9b9fhf.FontFace = Font.new("rbxasset://fonts/families/SourceSansPro.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
-g47551d743961a8g43eh.f1ag89225he3efcd9b9fhf.TextWrapped = true
-g47551d743961a8g43eh.f1ag89225he3efcd9b9fhf.TextTransparency = 0
-g47551d743961a8g43eh.f1ag89225he3efcd9b9fhf.TextXAlignment = Enum.TextXAlignment.Center
-g47551d743961a8g43eh.f1ag89225he3efcd9b9fhf.MaxVisibleGraphemes = -1
-g47551d743961a8g43eh.f1ag89225he3efcd9b9fhf.TextScaled = true
+bhc834g99c.hhed4102dg7cg00h1eg.Name = "Menus"
+bhc834g99c.hhed4102dg7cg00h1eg.Parent = bhc834g99c.aca4dga496308fdd86a5200cb5f
 
-g47551d743961a8g43eh.h5671d.Name = "LS"
-g47551d743961a8g43eh.h5671d.Parent = g47551d743961a8g43eh.h6de1d5g1c8fbg204d06bhgeg48e6g59
-g47551d743961a8g43eh.h5671d.AutoButtonColor = true
-g47551d743961a8g43eh.h5671d.LayoutOrder = 0
-g47551d743961a8g43eh.h5671d.Active = true
-g47551d743961a8g43eh.h5671d.Interactable = true
-g47551d743961a8g43eh.h5671d.AnchorPoint = Vector2.new(0, 0)
-g47551d743961a8g43eh.h5671d.Visible = true
-g47551d743961a8g43eh.h5671d.ZIndex = 11
-g47551d743961a8g43eh.h5671d.AutomaticSize = Enum.AutomaticSize.None
-g47551d743961a8g43eh.h5671d.Size = UDim2.new(0, 180, 0, 29)
-g47551d743961a8g43eh.h5671d.Draggable = false
-g47551d743961a8g43eh.h5671d.SizeConstraint = Enum.SizeConstraint.RelativeXY
-g47551d743961a8g43eh.h5671d.ClipsDescendants = false
-g47551d743961a8g43eh.h5671d.BorderColor3 = Color3.new(0, 0, 0)
-g47551d743961a8g43eh.h5671d.Selectable = true
-g47551d743961a8g43eh.h5671d.BorderSizePixel = 0
-g47551d743961a8g43eh.h5671d.Rotation = 0
-g47551d743961a8g43eh.h5671d.BackgroundTransparency = 0
-g47551d743961a8g43eh.h5671d.Position = UDim2.new(-0.00239223894, 0, 0.196739405, 0)
-g47551d743961a8g43eh.h5671d.BorderMode = Enum.BorderMode.Outline
-g47551d743961a8g43eh.h5671d.BackgroundColor3 = Color3.new(0, 0, 0)
-g47551d743961a8g43eh.h5671d.TextDirection = Enum.TextDirection.Auto
-g47551d743961a8g43eh.h5671d.TextStrokeColor3 = Color3.new(0, 0, 0)
-g47551d743961a8g43eh.h5671d.TextStrokeTransparency = 1
-g47551d743961a8g43eh.h5671d.TextTruncate = Enum.TextTruncate.None
-g47551d743961a8g43eh.h5671d.RichText = false
-g47551d743961a8g43eh.h5671d.TextColor3 = Color3.new(0, 1, 0)
-g47551d743961a8g43eh.h5671d.TextYAlignment = Enum.TextYAlignment.Center
-g47551d743961a8g43eh.h5671d.Text = "Leaderboard has crashed! :("
-g47551d743961a8g43eh.h5671d.FontFace = Font.new("rbxasset://fonts/families/SourceSansPro.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
-g47551d743961a8g43eh.h5671d.TextWrapped = true
-g47551d743961a8g43eh.h5671d.TextTransparency = 0
-g47551d743961a8g43eh.h5671d.TextXAlignment = Enum.TextXAlignment.Center
-g47551d743961a8g43eh.h5671d.MaxVisibleGraphemes = -1
-g47551d743961a8g43eh.h5671d.TextScaled = true
+bhc834g99c.gg623.Name = "main"
+bhc834g99c.gg623.Parent = bhc834g99c.hhed4102dg7cg00h1eg
+bhc834g99c.gg623.LayoutOrder = 0
+bhc834g99c.gg623.Active = false
+bhc834g99c.gg623.Interactable = true
+bhc834g99c.gg623.AnchorPoint = Vector2.new(0, 0)
+bhc834g99c.gg623.Visible = false
+bhc834g99c.gg623.ZIndex = 10
+bhc834g99c.gg623.AutomaticSize = Enum.AutomaticSize.None
+bhc834g99c.gg623.Size = UDim2.new(0, 180, 0, 144)
+bhc834g99c.gg623.Draggable = false
+bhc834g99c.gg623.SizeConstraint = Enum.SizeConstraint.RelativeXY
+bhc834g99c.gg623.ClipsDescendants = false
+bhc834g99c.gg623.BorderColor3 = Color3.new(0, 0, 0)
+bhc834g99c.gg623.Selectable = false
+bhc834g99c.gg623.BorderSizePixel = 0
+bhc834g99c.gg623.Rotation = 0
+bhc834g99c.gg623.BackgroundTransparency = 0
+bhc834g99c.gg623.Position = UDim2.new(0, 0, 0, 36)
+bhc834g99c.gg623.BorderMode = Enum.BorderMode.Outline
+bhc834g99c.gg623.BackgroundColor3 = Color3.new(0, 0, 0)
+bhc834g99c.gg623.Style = Enum.FrameStyle.Custom
 
-g47551d743961a8g43eh.acba165ga.Name = "Rejoin"
-g47551d743961a8g43eh.acba165ga.Parent = g47551d743961a8g43eh.h6de1d5g1c8fbg204d06bhgeg48e6g59
-g47551d743961a8g43eh.acba165ga.AutoButtonColor = true
-g47551d743961a8g43eh.acba165ga.LayoutOrder = 0
-g47551d743961a8g43eh.acba165ga.Active = true
-g47551d743961a8g43eh.acba165ga.Interactable = true
-g47551d743961a8g43eh.acba165ga.AnchorPoint = Vector2.new(0, 0)
-g47551d743961a8g43eh.acba165ga.Visible = true
-g47551d743961a8g43eh.acba165ga.ZIndex = 11
-g47551d743961a8g43eh.acba165ga.AutomaticSize = Enum.AutomaticSize.None
-g47551d743961a8g43eh.acba165ga.Size = UDim2.new(0, 180, 0, 29)
-g47551d743961a8g43eh.acba165ga.Draggable = false
-g47551d743961a8g43eh.acba165ga.SizeConstraint = Enum.SizeConstraint.RelativeXY
-g47551d743961a8g43eh.acba165ga.ClipsDescendants = false
-g47551d743961a8g43eh.acba165ga.BorderColor3 = Color3.new(0, 0, 0)
-g47551d743961a8g43eh.acba165ga.Selectable = true
-g47551d743961a8g43eh.acba165ga.BorderSizePixel = 0
-g47551d743961a8g43eh.acba165ga.Rotation = 0
-g47551d743961a8g43eh.acba165ga.BackgroundTransparency = 0
-g47551d743961a8g43eh.acba165ga.Position = UDim2.new(-0.00239223894, 0, 0.599517167, 0)
-g47551d743961a8g43eh.acba165ga.BorderMode = Enum.BorderMode.Outline
-g47551d743961a8g43eh.acba165ga.BackgroundColor3 = Color3.new(0, 0, 0)
-g47551d743961a8g43eh.acba165ga.TextDirection = Enum.TextDirection.Auto
-g47551d743961a8g43eh.acba165ga.TextStrokeColor3 = Color3.new(0, 0, 0)
-g47551d743961a8g43eh.acba165ga.TextStrokeTransparency = 1
-g47551d743961a8g43eh.acba165ga.TextTruncate = Enum.TextTruncate.None
-g47551d743961a8g43eh.acba165ga.RichText = false
-g47551d743961a8g43eh.acba165ga.TextColor3 = Color3.new(0, 1, 0)
-g47551d743961a8g43eh.acba165ga.TextYAlignment = Enum.TextYAlignment.Center
-g47551d743961a8g43eh.acba165ga.Text = "Rejoin"
-g47551d743961a8g43eh.acba165ga.FontFace = Font.new("rbxasset://fonts/families/SourceSansPro.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
-g47551d743961a8g43eh.acba165ga.TextWrapped = true
-g47551d743961a8g43eh.acba165ga.TextTransparency = 0
-g47551d743961a8g43eh.acba165ga.TextXAlignment = Enum.TextXAlignment.Center
-g47551d743961a8g43eh.acba165ga.MaxVisibleGraphemes = -1
-g47551d743961a8g43eh.acba165ga.TextScaled = true
+bhc834g99c.e8hf9b58hd3f2bce0ac49e227d1b41.Name = "Chat"
+bhc834g99c.e8hf9b58hd3f2bce0ac49e227d1b41.Parent = bhc834g99c.gg623
+bhc834g99c.e8hf9b58hd3f2bce0ac49e227d1b41.AutoButtonColor = true
+bhc834g99c.e8hf9b58hd3f2bce0ac49e227d1b41.LayoutOrder = 0
+bhc834g99c.e8hf9b58hd3f2bce0ac49e227d1b41.Active = true
+bhc834g99c.e8hf9b58hd3f2bce0ac49e227d1b41.Interactable = true
+bhc834g99c.e8hf9b58hd3f2bce0ac49e227d1b41.AnchorPoint = Vector2.new(0, 0)
+bhc834g99c.e8hf9b58hd3f2bce0ac49e227d1b41.Visible = true
+bhc834g99c.e8hf9b58hd3f2bce0ac49e227d1b41.ZIndex = 11
+bhc834g99c.e8hf9b58hd3f2bce0ac49e227d1b41.AutomaticSize = Enum.AutomaticSize.None
+bhc834g99c.e8hf9b58hd3f2bce0ac49e227d1b41.Size = UDim2.new(0, 180, 0, 29)
+bhc834g99c.e8hf9b58hd3f2bce0ac49e227d1b41.Draggable = false
+bhc834g99c.e8hf9b58hd3f2bce0ac49e227d1b41.SizeConstraint = Enum.SizeConstraint.RelativeXY
+bhc834g99c.e8hf9b58hd3f2bce0ac49e227d1b41.ClipsDescendants = false
+bhc834g99c.e8hf9b58hd3f2bce0ac49e227d1b41.BorderColor3 = Color3.new(0, 0, 0)
+bhc834g99c.e8hf9b58hd3f2bce0ac49e227d1b41.Selectable = true
+bhc834g99c.e8hf9b58hd3f2bce0ac49e227d1b41.BorderSizePixel = 0
+bhc834g99c.e8hf9b58hd3f2bce0ac49e227d1b41.Rotation = 0
+bhc834g99c.e8hf9b58hd3f2bce0ac49e227d1b41.BackgroundTransparency = 0
+bhc834g99c.e8hf9b58hd3f2bce0ac49e227d1b41.Position = UDim2.new(-0.00239223894, 0, -0.00464948034, 0)
+bhc834g99c.e8hf9b58hd3f2bce0ac49e227d1b41.BorderMode = Enum.BorderMode.Outline
+bhc834g99c.e8hf9b58hd3f2bce0ac49e227d1b41.BackgroundColor3 = Color3.new(0, 0, 0)
+bhc834g99c.e8hf9b58hd3f2bce0ac49e227d1b41.TextDirection = Enum.TextDirection.Auto
+bhc834g99c.e8hf9b58hd3f2bce0ac49e227d1b41.TextStrokeColor3 = Color3.new(0, 0, 0)
+bhc834g99c.e8hf9b58hd3f2bce0ac49e227d1b41.TextStrokeTransparency = 1
+bhc834g99c.e8hf9b58hd3f2bce0ac49e227d1b41.TextTruncate = Enum.TextTruncate.None
+bhc834g99c.e8hf9b58hd3f2bce0ac49e227d1b41.RichText = false
+bhc834g99c.e8hf9b58hd3f2bce0ac49e227d1b41.TextColor3 = Color3.new(0, 1, 0)
+bhc834g99c.e8hf9b58hd3f2bce0ac49e227d1b41.TextYAlignment = Enum.TextYAlignment.Center
+bhc834g99c.e8hf9b58hd3f2bce0ac49e227d1b41.Text = "Chat has crashed! :("
+bhc834g99c.e8hf9b58hd3f2bce0ac49e227d1b41.FontFace = Font.new("rbxasset://fonts/families/SourceSansPro.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+bhc834g99c.e8hf9b58hd3f2bce0ac49e227d1b41.TextWrapped = true
+bhc834g99c.e8hf9b58hd3f2bce0ac49e227d1b41.TextTransparency = 0
+bhc834g99c.e8hf9b58hd3f2bce0ac49e227d1b41.TextXAlignment = Enum.TextXAlignment.Center
+bhc834g99c.e8hf9b58hd3f2bce0ac49e227d1b41.MaxVisibleGraphemes = -1
+bhc834g99c.e8hf9b58hd3f2bce0ac49e227d1b41.TextScaled = true
 
-g47551d743961a8g43eh.g028bh7bh.Name = "Leave"
-g47551d743961a8g43eh.g028bh7bh.Parent = g47551d743961a8g43eh.h6de1d5g1c8fbg204d06bhgeg48e6g59
-g47551d743961a8g43eh.g028bh7bh.AutoButtonColor = true
-g47551d743961a8g43eh.g028bh7bh.LayoutOrder = 0
-g47551d743961a8g43eh.g028bh7bh.Active = true
-g47551d743961a8g43eh.g028bh7bh.Interactable = true
-g47551d743961a8g43eh.g028bh7bh.AnchorPoint = Vector2.new(0, 0)
-g47551d743961a8g43eh.g028bh7bh.Visible = true
-g47551d743961a8g43eh.g028bh7bh.ZIndex = 11
-g47551d743961a8g43eh.g028bh7bh.AutomaticSize = Enum.AutomaticSize.None
-g47551d743961a8g43eh.g028bh7bh.Size = UDim2.new(0, 180, 0, 29)
-g47551d743961a8g43eh.g028bh7bh.Draggable = false
-g47551d743961a8g43eh.g028bh7bh.SizeConstraint = Enum.SizeConstraint.RelativeXY
-g47551d743961a8g43eh.g028bh7bh.ClipsDescendants = false
-g47551d743961a8g43eh.g028bh7bh.BorderColor3 = Color3.new(0, 0, 0)
-g47551d743961a8g43eh.g028bh7bh.Selectable = true
-g47551d743961a8g43eh.g028bh7bh.BorderSizePixel = 0
-g47551d743961a8g43eh.g028bh7bh.Rotation = 0
-g47551d743961a8g43eh.g028bh7bh.BackgroundTransparency = 0
-g47551d743961a8g43eh.g028bh7bh.Position = UDim2.new(-0.00239223894, 0, 0.793961644, 0)
-g47551d743961a8g43eh.g028bh7bh.BorderMode = Enum.BorderMode.Outline
-g47551d743961a8g43eh.g028bh7bh.BackgroundColor3 = Color3.new(0, 0, 0)
-g47551d743961a8g43eh.g028bh7bh.TextDirection = Enum.TextDirection.Auto
-g47551d743961a8g43eh.g028bh7bh.TextStrokeColor3 = Color3.new(0, 0, 0)
-g47551d743961a8g43eh.g028bh7bh.TextStrokeTransparency = 1
-g47551d743961a8g43eh.g028bh7bh.TextTruncate = Enum.TextTruncate.None
-g47551d743961a8g43eh.g028bh7bh.RichText = false
-g47551d743961a8g43eh.g028bh7bh.TextColor3 = Color3.new(0, 1, 0)
-g47551d743961a8g43eh.g028bh7bh.TextYAlignment = Enum.TextYAlignment.Center
-g47551d743961a8g43eh.g028bh7bh.Text = "Leave Game"
-g47551d743961a8g43eh.g028bh7bh.FontFace = Font.new("rbxasset://fonts/families/SourceSansPro.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
-g47551d743961a8g43eh.g028bh7bh.TextWrapped = true
-g47551d743961a8g43eh.g028bh7bh.TextTransparency = 0
-g47551d743961a8g43eh.g028bh7bh.TextXAlignment = Enum.TextXAlignment.Center
-g47551d743961a8g43eh.g028bh7bh.MaxVisibleGraphemes = -1
-g47551d743961a8g43eh.g028bh7bh.TextScaled = true
+bhc834g99c.b51h4b0906ah1f8b.Name = "LS"
+bhc834g99c.b51h4b0906ah1f8b.Parent = bhc834g99c.gg623
+bhc834g99c.b51h4b0906ah1f8b.AutoButtonColor = true
+bhc834g99c.b51h4b0906ah1f8b.LayoutOrder = 0
+bhc834g99c.b51h4b0906ah1f8b.Active = true
+bhc834g99c.b51h4b0906ah1f8b.Interactable = true
+bhc834g99c.b51h4b0906ah1f8b.AnchorPoint = Vector2.new(0, 0)
+bhc834g99c.b51h4b0906ah1f8b.Visible = true
+bhc834g99c.b51h4b0906ah1f8b.ZIndex = 11
+bhc834g99c.b51h4b0906ah1f8b.AutomaticSize = Enum.AutomaticSize.None
+bhc834g99c.b51h4b0906ah1f8b.Size = UDim2.new(0, 180, 0, 29)
+bhc834g99c.b51h4b0906ah1f8b.Draggable = false
+bhc834g99c.b51h4b0906ah1f8b.SizeConstraint = Enum.SizeConstraint.RelativeXY
+bhc834g99c.b51h4b0906ah1f8b.ClipsDescendants = false
+bhc834g99c.b51h4b0906ah1f8b.BorderColor3 = Color3.new(0, 0, 0)
+bhc834g99c.b51h4b0906ah1f8b.Selectable = true
+bhc834g99c.b51h4b0906ah1f8b.BorderSizePixel = 0
+bhc834g99c.b51h4b0906ah1f8b.Rotation = 0
+bhc834g99c.b51h4b0906ah1f8b.BackgroundTransparency = 0
+bhc834g99c.b51h4b0906ah1f8b.Position = UDim2.new(-0.00239223894, 0, 0.196739405, 0)
+bhc834g99c.b51h4b0906ah1f8b.BorderMode = Enum.BorderMode.Outline
+bhc834g99c.b51h4b0906ah1f8b.BackgroundColor3 = Color3.new(0, 0, 0)
+bhc834g99c.b51h4b0906ah1f8b.TextDirection = Enum.TextDirection.Auto
+bhc834g99c.b51h4b0906ah1f8b.TextStrokeColor3 = Color3.new(0, 0, 0)
+bhc834g99c.b51h4b0906ah1f8b.TextStrokeTransparency = 1
+bhc834g99c.b51h4b0906ah1f8b.TextTruncate = Enum.TextTruncate.None
+bhc834g99c.b51h4b0906ah1f8b.RichText = false
+bhc834g99c.b51h4b0906ah1f8b.TextColor3 = Color3.new(0, 1, 0)
+bhc834g99c.b51h4b0906ah1f8b.TextYAlignment = Enum.TextYAlignment.Center
+bhc834g99c.b51h4b0906ah1f8b.Text = "Leaderboard has crashed! :("
+bhc834g99c.b51h4b0906ah1f8b.FontFace = Font.new("rbxasset://fonts/families/SourceSansPro.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+bhc834g99c.b51h4b0906ah1f8b.TextWrapped = true
+bhc834g99c.b51h4b0906ah1f8b.TextTransparency = 0
+bhc834g99c.b51h4b0906ah1f8b.TextXAlignment = Enum.TextXAlignment.Center
+bhc834g99c.b51h4b0906ah1f8b.MaxVisibleGraphemes = -1
+bhc834g99c.b51h4b0906ah1f8b.TextScaled = true
 
-g47551d743961a8g43eh.ce59df894.Name = "Flags"
-g47551d743961a8g43eh.ce59df894.Parent = g47551d743961a8g43eh.b42g87g
+bhc834g99c.bfda5hg39habe.Name = "Rejoin"
+bhc834g99c.bfda5hg39habe.Parent = bhc834g99c.gg623
+bhc834g99c.bfda5hg39habe.AutoButtonColor = true
+bhc834g99c.bfda5hg39habe.LayoutOrder = 0
+bhc834g99c.bfda5hg39habe.Active = true
+bhc834g99c.bfda5hg39habe.Interactable = true
+bhc834g99c.bfda5hg39habe.AnchorPoint = Vector2.new(0, 0)
+bhc834g99c.bfda5hg39habe.Visible = true
+bhc834g99c.bfda5hg39habe.ZIndex = 11
+bhc834g99c.bfda5hg39habe.AutomaticSize = Enum.AutomaticSize.None
+bhc834g99c.bfda5hg39habe.Size = UDim2.new(0, 180, 0, 29)
+bhc834g99c.bfda5hg39habe.Draggable = false
+bhc834g99c.bfda5hg39habe.SizeConstraint = Enum.SizeConstraint.RelativeXY
+bhc834g99c.bfda5hg39habe.ClipsDescendants = false
+bhc834g99c.bfda5hg39habe.BorderColor3 = Color3.new(0, 0, 0)
+bhc834g99c.bfda5hg39habe.Selectable = true
+bhc834g99c.bfda5hg39habe.BorderSizePixel = 0
+bhc834g99c.bfda5hg39habe.Rotation = 0
+bhc834g99c.bfda5hg39habe.BackgroundTransparency = 0
+bhc834g99c.bfda5hg39habe.Position = UDim2.new(-0.00239223894, 0, 0.599517167, 0)
+bhc834g99c.bfda5hg39habe.BorderMode = Enum.BorderMode.Outline
+bhc834g99c.bfda5hg39habe.BackgroundColor3 = Color3.new(0, 0, 0)
+bhc834g99c.bfda5hg39habe.TextDirection = Enum.TextDirection.Auto
+bhc834g99c.bfda5hg39habe.TextStrokeColor3 = Color3.new(0, 0, 0)
+bhc834g99c.bfda5hg39habe.TextStrokeTransparency = 1
+bhc834g99c.bfda5hg39habe.TextTruncate = Enum.TextTruncate.None
+bhc834g99c.bfda5hg39habe.RichText = false
+bhc834g99c.bfda5hg39habe.TextColor3 = Color3.new(0, 1, 0)
+bhc834g99c.bfda5hg39habe.TextYAlignment = Enum.TextYAlignment.Center
+bhc834g99c.bfda5hg39habe.Text = "Rejoin"
+bhc834g99c.bfda5hg39habe.FontFace = Font.new("rbxasset://fonts/families/SourceSansPro.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+bhc834g99c.bfda5hg39habe.TextWrapped = true
+bhc834g99c.bfda5hg39habe.TextTransparency = 0
+bhc834g99c.bfda5hg39habe.TextXAlignment = Enum.TextXAlignment.Center
+bhc834g99c.bfda5hg39habe.MaxVisibleGraphemes = -1
+bhc834g99c.bfda5hg39habe.TextScaled = true
 
-g47551d743961a8g43eh.gfhh8147a85fef0780bfdh.Name = "load"
-g47551d743961a8g43eh.gfhh8147a85fef0780bfdh.Parent = g47551d743961a8g43eh.ce59df894
-g47551d743961a8g43eh.gfhh8147a85fef0780bfdh.Value = false
+bhc834g99c.ge5b4d8ghf4373cag0gf3357f.Name = "Leave"
+bhc834g99c.ge5b4d8ghf4373cag0gf3357f.Parent = bhc834g99c.gg623
+bhc834g99c.ge5b4d8ghf4373cag0gf3357f.AutoButtonColor = true
+bhc834g99c.ge5b4d8ghf4373cag0gf3357f.LayoutOrder = 0
+bhc834g99c.ge5b4d8ghf4373cag0gf3357f.Active = true
+bhc834g99c.ge5b4d8ghf4373cag0gf3357f.Interactable = true
+bhc834g99c.ge5b4d8ghf4373cag0gf3357f.AnchorPoint = Vector2.new(0, 0)
+bhc834g99c.ge5b4d8ghf4373cag0gf3357f.Visible = true
+bhc834g99c.ge5b4d8ghf4373cag0gf3357f.ZIndex = 11
+bhc834g99c.ge5b4d8ghf4373cag0gf3357f.AutomaticSize = Enum.AutomaticSize.None
+bhc834g99c.ge5b4d8ghf4373cag0gf3357f.Size = UDim2.new(0, 180, 0, 29)
+bhc834g99c.ge5b4d8ghf4373cag0gf3357f.Draggable = false
+bhc834g99c.ge5b4d8ghf4373cag0gf3357f.SizeConstraint = Enum.SizeConstraint.RelativeXY
+bhc834g99c.ge5b4d8ghf4373cag0gf3357f.ClipsDescendants = false
+bhc834g99c.ge5b4d8ghf4373cag0gf3357f.BorderColor3 = Color3.new(0, 0, 0)
+bhc834g99c.ge5b4d8ghf4373cag0gf3357f.Selectable = true
+bhc834g99c.ge5b4d8ghf4373cag0gf3357f.BorderSizePixel = 0
+bhc834g99c.ge5b4d8ghf4373cag0gf3357f.Rotation = 0
+bhc834g99c.ge5b4d8ghf4373cag0gf3357f.BackgroundTransparency = 0
+bhc834g99c.ge5b4d8ghf4373cag0gf3357f.Position = UDim2.new(-0.00239223894, 0, 0.793961644, 0)
+bhc834g99c.ge5b4d8ghf4373cag0gf3357f.BorderMode = Enum.BorderMode.Outline
+bhc834g99c.ge5b4d8ghf4373cag0gf3357f.BackgroundColor3 = Color3.new(0, 0, 0)
+bhc834g99c.ge5b4d8ghf4373cag0gf3357f.TextDirection = Enum.TextDirection.Auto
+bhc834g99c.ge5b4d8ghf4373cag0gf3357f.TextStrokeColor3 = Color3.new(0, 0, 0)
+bhc834g99c.ge5b4d8ghf4373cag0gf3357f.TextStrokeTransparency = 1
+bhc834g99c.ge5b4d8ghf4373cag0gf3357f.TextTruncate = Enum.TextTruncate.None
+bhc834g99c.ge5b4d8ghf4373cag0gf3357f.RichText = false
+bhc834g99c.ge5b4d8ghf4373cag0gf3357f.TextColor3 = Color3.new(0, 1, 0)
+bhc834g99c.ge5b4d8ghf4373cag0gf3357f.TextYAlignment = Enum.TextYAlignment.Center
+bhc834g99c.ge5b4d8ghf4373cag0gf3357f.Text = "Leave Game"
+bhc834g99c.ge5b4d8ghf4373cag0gf3357f.FontFace = Font.new("rbxasset://fonts/families/SourceSansPro.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+bhc834g99c.ge5b4d8ghf4373cag0gf3357f.TextWrapped = true
+bhc834g99c.ge5b4d8ghf4373cag0gf3357f.TextTransparency = 0
+bhc834g99c.ge5b4d8ghf4373cag0gf3357f.TextXAlignment = Enum.TextXAlignment.Center
+bhc834g99c.ge5b4d8ghf4373cag0gf3357f.MaxVisibleGraphemes = -1
+bhc834g99c.ge5b4d8ghf4373cag0gf3357f.TextScaled = true
+
+bhc834g99c.cd19h90.Name = "player"
+bhc834g99c.cd19h90.Parent = bhc834g99c.hhed4102dg7cg00h1eg
+bhc834g99c.cd19h90.LayoutOrder = 0
+bhc834g99c.cd19h90.Active = false
+bhc834g99c.cd19h90.Interactable = true
+bhc834g99c.cd19h90.AnchorPoint = Vector2.new(0, 0)
+bhc834g99c.cd19h90.Visible = false
+bhc834g99c.cd19h90.ZIndex = 10
+bhc834g99c.cd19h90.AutomaticSize = Enum.AutomaticSize.None
+bhc834g99c.cd19h90.Size = UDim2.new(0, 180, 0, 85)
+bhc834g99c.cd19h90.Draggable = false
+bhc834g99c.cd19h90.SizeConstraint = Enum.SizeConstraint.RelativeXY
+bhc834g99c.cd19h90.ClipsDescendants = false
+bhc834g99c.cd19h90.BorderColor3 = Color3.new(0, 0, 0)
+bhc834g99c.cd19h90.Selectable = false
+bhc834g99c.cd19h90.BorderSizePixel = 0
+bhc834g99c.cd19h90.Rotation = 0
+bhc834g99c.cd19h90.BackgroundTransparency = 0
+bhc834g99c.cd19h90.Position = UDim2.new(0, 305, 0, 36)
+bhc834g99c.cd19h90.BorderMode = Enum.BorderMode.Outline
+bhc834g99c.cd19h90.BackgroundColor3 = Color3.new(0, 0, 0)
+bhc834g99c.cd19h90.Style = Enum.FrameStyle.Custom
+
+bhc834g99c.g1d509f7gb0306af990835f682d8.Name = "reset"
+bhc834g99c.g1d509f7gb0306af990835f682d8.Parent = bhc834g99c.cd19h90
+bhc834g99c.g1d509f7gb0306af990835f682d8.AutoButtonColor = true
+bhc834g99c.g1d509f7gb0306af990835f682d8.LayoutOrder = 0
+bhc834g99c.g1d509f7gb0306af990835f682d8.Active = true
+bhc834g99c.g1d509f7gb0306af990835f682d8.Interactable = true
+bhc834g99c.g1d509f7gb0306af990835f682d8.AnchorPoint = Vector2.new(0, 0)
+bhc834g99c.g1d509f7gb0306af990835f682d8.Visible = true
+bhc834g99c.g1d509f7gb0306af990835f682d8.ZIndex = 11
+bhc834g99c.g1d509f7gb0306af990835f682d8.AutomaticSize = Enum.AutomaticSize.None
+bhc834g99c.g1d509f7gb0306af990835f682d8.Size = UDim2.new(0, 180, 0, 29)
+bhc834g99c.g1d509f7gb0306af990835f682d8.Draggable = false
+bhc834g99c.g1d509f7gb0306af990835f682d8.SizeConstraint = Enum.SizeConstraint.RelativeXY
+bhc834g99c.g1d509f7gb0306af990835f682d8.ClipsDescendants = false
+bhc834g99c.g1d509f7gb0306af990835f682d8.BorderColor3 = Color3.new(0, 0, 0)
+bhc834g99c.g1d509f7gb0306af990835f682d8.Selectable = true
+bhc834g99c.g1d509f7gb0306af990835f682d8.BorderSizePixel = 0
+bhc834g99c.g1d509f7gb0306af990835f682d8.Rotation = 0
+bhc834g99c.g1d509f7gb0306af990835f682d8.BackgroundTransparency = 0
+bhc834g99c.g1d509f7gb0306af990835f682d8.Position = UDim2.new(-0.00239223894, 0, -0.00464948034, 0)
+bhc834g99c.g1d509f7gb0306af990835f682d8.BorderMode = Enum.BorderMode.Outline
+bhc834g99c.g1d509f7gb0306af990835f682d8.BackgroundColor3 = Color3.new(0, 0, 0)
+bhc834g99c.g1d509f7gb0306af990835f682d8.TextDirection = Enum.TextDirection.Auto
+bhc834g99c.g1d509f7gb0306af990835f682d8.TextStrokeColor3 = Color3.new(0, 0, 0)
+bhc834g99c.g1d509f7gb0306af990835f682d8.TextStrokeTransparency = 1
+bhc834g99c.g1d509f7gb0306af990835f682d8.TextTruncate = Enum.TextTruncate.None
+bhc834g99c.g1d509f7gb0306af990835f682d8.RichText = false
+bhc834g99c.g1d509f7gb0306af990835f682d8.TextColor3 = Color3.new(0, 1, 0)
+bhc834g99c.g1d509f7gb0306af990835f682d8.TextYAlignment = Enum.TextYAlignment.Center
+bhc834g99c.g1d509f7gb0306af990835f682d8.Text = "Reset Character"
+bhc834g99c.g1d509f7gb0306af990835f682d8.FontFace = Font.new("rbxasset://fonts/families/SourceSansPro.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+bhc834g99c.g1d509f7gb0306af990835f682d8.TextWrapped = true
+bhc834g99c.g1d509f7gb0306af990835f682d8.TextTransparency = 0
+bhc834g99c.g1d509f7gb0306af990835f682d8.TextXAlignment = Enum.TextXAlignment.Center
+bhc834g99c.g1d509f7gb0306af990835f682d8.MaxVisibleGraphemes = -1
+bhc834g99c.g1d509f7gb0306af990835f682d8.TextScaled = true
+
+bhc834g99c.fc8703dc4e50g6cdeg91421714.Name = "resetcamera"
+bhc834g99c.fc8703dc4e50g6cdeg91421714.Parent = bhc834g99c.cd19h90
+bhc834g99c.fc8703dc4e50g6cdeg91421714.AutoButtonColor = true
+bhc834g99c.fc8703dc4e50g6cdeg91421714.LayoutOrder = 0
+bhc834g99c.fc8703dc4e50g6cdeg91421714.Active = true
+bhc834g99c.fc8703dc4e50g6cdeg91421714.Interactable = true
+bhc834g99c.fc8703dc4e50g6cdeg91421714.AnchorPoint = Vector2.new(0, 0)
+bhc834g99c.fc8703dc4e50g6cdeg91421714.Visible = true
+bhc834g99c.fc8703dc4e50g6cdeg91421714.ZIndex = 11
+bhc834g99c.fc8703dc4e50g6cdeg91421714.AutomaticSize = Enum.AutomaticSize.None
+bhc834g99c.fc8703dc4e50g6cdeg91421714.Size = UDim2.new(0, 180, 0, 29)
+bhc834g99c.fc8703dc4e50g6cdeg91421714.Draggable = false
+bhc834g99c.fc8703dc4e50g6cdeg91421714.SizeConstraint = Enum.SizeConstraint.RelativeXY
+bhc834g99c.fc8703dc4e50g6cdeg91421714.ClipsDescendants = false
+bhc834g99c.fc8703dc4e50g6cdeg91421714.BorderColor3 = Color3.new(0, 0, 0)
+bhc834g99c.fc8703dc4e50g6cdeg91421714.Selectable = true
+bhc834g99c.fc8703dc4e50g6cdeg91421714.BorderSizePixel = 0
+bhc834g99c.fc8703dc4e50g6cdeg91421714.Rotation = 0
+bhc834g99c.fc8703dc4e50g6cdeg91421714.BackgroundTransparency = 0
+bhc834g99c.fc8703dc4e50g6cdeg91421714.Position = UDim2.new(-0.00239223894, 0, 0.326151043, 0)
+bhc834g99c.fc8703dc4e50g6cdeg91421714.BorderMode = Enum.BorderMode.Outline
+bhc834g99c.fc8703dc4e50g6cdeg91421714.BackgroundColor3 = Color3.new(0, 0, 0)
+bhc834g99c.fc8703dc4e50g6cdeg91421714.TextDirection = Enum.TextDirection.Auto
+bhc834g99c.fc8703dc4e50g6cdeg91421714.TextStrokeColor3 = Color3.new(0, 0, 0)
+bhc834g99c.fc8703dc4e50g6cdeg91421714.TextStrokeTransparency = 1
+bhc834g99c.fc8703dc4e50g6cdeg91421714.TextTruncate = Enum.TextTruncate.None
+bhc834g99c.fc8703dc4e50g6cdeg91421714.RichText = false
+bhc834g99c.fc8703dc4e50g6cdeg91421714.TextColor3 = Color3.new(0, 1, 0)
+bhc834g99c.fc8703dc4e50g6cdeg91421714.TextYAlignment = Enum.TextYAlignment.Center
+bhc834g99c.fc8703dc4e50g6cdeg91421714.Text = "Reset Camera"
+bhc834g99c.fc8703dc4e50g6cdeg91421714.FontFace = Font.new("rbxasset://fonts/families/SourceSansPro.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+bhc834g99c.fc8703dc4e50g6cdeg91421714.TextWrapped = true
+bhc834g99c.fc8703dc4e50g6cdeg91421714.TextTransparency = 0
+bhc834g99c.fc8703dc4e50g6cdeg91421714.TextXAlignment = Enum.TextXAlignment.Center
+bhc834g99c.fc8703dc4e50g6cdeg91421714.MaxVisibleGraphemes = -1
+bhc834g99c.fc8703dc4e50g6cdeg91421714.TextScaled = true
+
+bhc834g99c.ga46af14145f7.Name = "hitbox"
+bhc834g99c.ga46af14145f7.Parent = bhc834g99c.cd19h90
+bhc834g99c.ga46af14145f7.AutoButtonColor = true
+bhc834g99c.ga46af14145f7.LayoutOrder = 0
+bhc834g99c.ga46af14145f7.Active = true
+bhc834g99c.ga46af14145f7.Interactable = true
+bhc834g99c.ga46af14145f7.AnchorPoint = Vector2.new(0, 0)
+bhc834g99c.ga46af14145f7.Visible = true
+bhc834g99c.ga46af14145f7.ZIndex = 11
+bhc834g99c.ga46af14145f7.AutomaticSize = Enum.AutomaticSize.None
+bhc834g99c.ga46af14145f7.Size = UDim2.new(0, 180, 0, 29)
+bhc834g99c.ga46af14145f7.Draggable = false
+bhc834g99c.ga46af14145f7.SizeConstraint = Enum.SizeConstraint.RelativeXY
+bhc834g99c.ga46af14145f7.ClipsDescendants = false
+bhc834g99c.ga46af14145f7.BorderColor3 = Color3.new(0, 0, 0)
+bhc834g99c.ga46af14145f7.Selectable = true
+bhc834g99c.ga46af14145f7.BorderSizePixel = 0
+bhc834g99c.ga46af14145f7.Rotation = 0
+bhc834g99c.ga46af14145f7.BackgroundTransparency = 0
+bhc834g99c.ga46af14145f7.Position = UDim2.new(0.00165032281, 0, 0.663470805, 0)
+bhc834g99c.ga46af14145f7.BorderMode = Enum.BorderMode.Outline
+bhc834g99c.ga46af14145f7.BackgroundColor3 = Color3.new(0, 0, 0)
+bhc834g99c.ga46af14145f7.TextDirection = Enum.TextDirection.Auto
+bhc834g99c.ga46af14145f7.TextStrokeColor3 = Color3.new(0, 0, 0)
+bhc834g99c.ga46af14145f7.TextStrokeTransparency = 1
+bhc834g99c.ga46af14145f7.TextTruncate = Enum.TextTruncate.None
+bhc834g99c.ga46af14145f7.RichText = false
+bhc834g99c.ga46af14145f7.TextColor3 = Color3.new(0, 1, 0)
+bhc834g99c.ga46af14145f7.TextYAlignment = Enum.TextYAlignment.Center
+bhc834g99c.ga46af14145f7.Text = "Show Hitbox"
+bhc834g99c.ga46af14145f7.FontFace = Font.new("rbxasset://fonts/families/SourceSansPro.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+bhc834g99c.ga46af14145f7.TextWrapped = true
+bhc834g99c.ga46af14145f7.TextTransparency = 0
+bhc834g99c.ga46af14145f7.TextXAlignment = Enum.TextXAlignment.Center
+bhc834g99c.ga46af14145f7.MaxVisibleGraphemes = -1
+bhc834g99c.ga46af14145f7.TextScaled = true
+
+bhc834g99c.e1ah2d2e77gc71dede10.Name = "script"
+bhc834g99c.e1ah2d2e77gc71dede10.Parent = bhc834g99c.hhed4102dg7cg00h1eg
+bhc834g99c.e1ah2d2e77gc71dede10.LayoutOrder = 0
+bhc834g99c.e1ah2d2e77gc71dede10.Active = false
+bhc834g99c.e1ah2d2e77gc71dede10.Interactable = true
+bhc834g99c.e1ah2d2e77gc71dede10.AnchorPoint = Vector2.new(0, 0)
+bhc834g99c.e1ah2d2e77gc71dede10.Visible = false
+bhc834g99c.e1ah2d2e77gc71dede10.ZIndex = 10
+bhc834g99c.e1ah2d2e77gc71dede10.AutomaticSize = Enum.AutomaticSize.None
+bhc834g99c.e1ah2d2e77gc71dede10.Size = UDim2.new(0, 180, 0, 85)
+bhc834g99c.e1ah2d2e77gc71dede10.Draggable = false
+bhc834g99c.e1ah2d2e77gc71dede10.SizeConstraint = Enum.SizeConstraint.RelativeXY
+bhc834g99c.e1ah2d2e77gc71dede10.ClipsDescendants = false
+bhc834g99c.e1ah2d2e77gc71dede10.BorderColor3 = Color3.new(0, 0, 0)
+bhc834g99c.e1ah2d2e77gc71dede10.Selectable = false
+bhc834g99c.e1ah2d2e77gc71dede10.BorderSizePixel = 0
+bhc834g99c.e1ah2d2e77gc71dede10.Rotation = 0
+bhc834g99c.e1ah2d2e77gc71dede10.BackgroundTransparency = 0
+bhc834g99c.e1ah2d2e77gc71dede10.Position = UDim2.new(0, 493, 0, 36)
+bhc834g99c.e1ah2d2e77gc71dede10.BorderMode = Enum.BorderMode.Outline
+bhc834g99c.e1ah2d2e77gc71dede10.BackgroundColor3 = Color3.new(0, 0, 0)
+bhc834g99c.e1ah2d2e77gc71dede10.Style = Enum.FrameStyle.Custom
+
+bhc834g99c.ba3eh9g9e8ea113389.Name = "inf"
+bhc834g99c.ba3eh9g9e8ea113389.Parent = bhc834g99c.e1ah2d2e77gc71dede10
+bhc834g99c.ba3eh9g9e8ea113389.AutoButtonColor = true
+bhc834g99c.ba3eh9g9e8ea113389.LayoutOrder = 0
+bhc834g99c.ba3eh9g9e8ea113389.Active = true
+bhc834g99c.ba3eh9g9e8ea113389.Interactable = true
+bhc834g99c.ba3eh9g9e8ea113389.AnchorPoint = Vector2.new(0, 0)
+bhc834g99c.ba3eh9g9e8ea113389.Visible = true
+bhc834g99c.ba3eh9g9e8ea113389.ZIndex = 11
+bhc834g99c.ba3eh9g9e8ea113389.AutomaticSize = Enum.AutomaticSize.None
+bhc834g99c.ba3eh9g9e8ea113389.Size = UDim2.new(0, 180, 0, 29)
+bhc834g99c.ba3eh9g9e8ea113389.Draggable = false
+bhc834g99c.ba3eh9g9e8ea113389.SizeConstraint = Enum.SizeConstraint.RelativeXY
+bhc834g99c.ba3eh9g9e8ea113389.ClipsDescendants = false
+bhc834g99c.ba3eh9g9e8ea113389.BorderColor3 = Color3.new(0, 0, 0)
+bhc834g99c.ba3eh9g9e8ea113389.Selectable = true
+bhc834g99c.ba3eh9g9e8ea113389.BorderSizePixel = 0
+bhc834g99c.ba3eh9g9e8ea113389.Rotation = 0
+bhc834g99c.ba3eh9g9e8ea113389.BackgroundTransparency = 0
+bhc834g99c.ba3eh9g9e8ea113389.Position = UDim2.new(-0.00239223894, 0, -0.00464948034, 0)
+bhc834g99c.ba3eh9g9e8ea113389.BorderMode = Enum.BorderMode.Outline
+bhc834g99c.ba3eh9g9e8ea113389.BackgroundColor3 = Color3.new(0, 0, 0)
+bhc834g99c.ba3eh9g9e8ea113389.TextDirection = Enum.TextDirection.Auto
+bhc834g99c.ba3eh9g9e8ea113389.TextStrokeColor3 = Color3.new(0, 0, 0)
+bhc834g99c.ba3eh9g9e8ea113389.TextStrokeTransparency = 1
+bhc834g99c.ba3eh9g9e8ea113389.TextTruncate = Enum.TextTruncate.None
+bhc834g99c.ba3eh9g9e8ea113389.RichText = false
+bhc834g99c.ba3eh9g9e8ea113389.TextColor3 = Color3.new(0, 1, 0)
+bhc834g99c.ba3eh9g9e8ea113389.TextYAlignment = Enum.TextYAlignment.Center
+bhc834g99c.ba3eh9g9e8ea113389.Text = "Infinite Yield"
+bhc834g99c.ba3eh9g9e8ea113389.FontFace = Font.new("rbxasset://fonts/families/SourceSansPro.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+bhc834g99c.ba3eh9g9e8ea113389.TextWrapped = true
+bhc834g99c.ba3eh9g9e8ea113389.TextTransparency = 0
+bhc834g99c.ba3eh9g9e8ea113389.TextXAlignment = Enum.TextXAlignment.Center
+bhc834g99c.ba3eh9g9e8ea113389.MaxVisibleGraphemes = -1
+bhc834g99c.ba3eh9g9e8ea113389.TextScaled = true
+
+bhc834g99c.c02899efd4220g5aa74a37b5da70h93.Name = "dex"
+bhc834g99c.c02899efd4220g5aa74a37b5da70h93.Parent = bhc834g99c.e1ah2d2e77gc71dede10
+bhc834g99c.c02899efd4220g5aa74a37b5da70h93.AutoButtonColor = true
+bhc834g99c.c02899efd4220g5aa74a37b5da70h93.LayoutOrder = 0
+bhc834g99c.c02899efd4220g5aa74a37b5da70h93.Active = true
+bhc834g99c.c02899efd4220g5aa74a37b5da70h93.Interactable = true
+bhc834g99c.c02899efd4220g5aa74a37b5da70h93.AnchorPoint = Vector2.new(0, 0)
+bhc834g99c.c02899efd4220g5aa74a37b5da70h93.Visible = true
+bhc834g99c.c02899efd4220g5aa74a37b5da70h93.ZIndex = 11
+bhc834g99c.c02899efd4220g5aa74a37b5da70h93.AutomaticSize = Enum.AutomaticSize.None
+bhc834g99c.c02899efd4220g5aa74a37b5da70h93.Size = UDim2.new(0, 180, 0, 29)
+bhc834g99c.c02899efd4220g5aa74a37b5da70h93.Draggable = false
+bhc834g99c.c02899efd4220g5aa74a37b5da70h93.SizeConstraint = Enum.SizeConstraint.RelativeXY
+bhc834g99c.c02899efd4220g5aa74a37b5da70h93.ClipsDescendants = false
+bhc834g99c.c02899efd4220g5aa74a37b5da70h93.BorderColor3 = Color3.new(0, 0, 0)
+bhc834g99c.c02899efd4220g5aa74a37b5da70h93.Selectable = true
+bhc834g99c.c02899efd4220g5aa74a37b5da70h93.BorderSizePixel = 0
+bhc834g99c.c02899efd4220g5aa74a37b5da70h93.Rotation = 0
+bhc834g99c.c02899efd4220g5aa74a37b5da70h93.BackgroundTransparency = 0
+bhc834g99c.c02899efd4220g5aa74a37b5da70h93.Position = UDim2.new(-0.00390523276, 0, 0.33405906, 0)
+bhc834g99c.c02899efd4220g5aa74a37b5da70h93.BorderMode = Enum.BorderMode.Outline
+bhc834g99c.c02899efd4220g5aa74a37b5da70h93.BackgroundColor3 = Color3.new(0, 0, 0)
+bhc834g99c.c02899efd4220g5aa74a37b5da70h93.TextDirection = Enum.TextDirection.Auto
+bhc834g99c.c02899efd4220g5aa74a37b5da70h93.TextStrokeColor3 = Color3.new(0, 0, 0)
+bhc834g99c.c02899efd4220g5aa74a37b5da70h93.TextStrokeTransparency = 1
+bhc834g99c.c02899efd4220g5aa74a37b5da70h93.TextTruncate = Enum.TextTruncate.None
+bhc834g99c.c02899efd4220g5aa74a37b5da70h93.RichText = false
+bhc834g99c.c02899efd4220g5aa74a37b5da70h93.TextColor3 = Color3.new(0, 1, 0)
+bhc834g99c.c02899efd4220g5aa74a37b5da70h93.TextYAlignment = Enum.TextYAlignment.Center
+bhc834g99c.c02899efd4220g5aa74a37b5da70h93.Text = "Dex"
+bhc834g99c.c02899efd4220g5aa74a37b5da70h93.FontFace = Font.new("rbxasset://fonts/families/SourceSansPro.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+bhc834g99c.c02899efd4220g5aa74a37b5da70h93.TextWrapped = true
+bhc834g99c.c02899efd4220g5aa74a37b5da70h93.TextTransparency = 0
+bhc834g99c.c02899efd4220g5aa74a37b5da70h93.TextXAlignment = Enum.TextXAlignment.Center
+bhc834g99c.c02899efd4220g5aa74a37b5da70h93.MaxVisibleGraphemes = -1
+bhc834g99c.c02899efd4220g5aa74a37b5da70h93.TextScaled = true
+
+bhc834g99c.d701782g.Name = "ball"
+bhc834g99c.d701782g.Parent = bhc834g99c.e1ah2d2e77gc71dede10
+bhc834g99c.d701782g.AutoButtonColor = true
+bhc834g99c.d701782g.LayoutOrder = 0
+bhc834g99c.d701782g.Active = true
+bhc834g99c.d701782g.Interactable = true
+bhc834g99c.d701782g.AnchorPoint = Vector2.new(0, 0)
+bhc834g99c.d701782g.Visible = true
+bhc834g99c.d701782g.ZIndex = 11
+bhc834g99c.d701782g.AutomaticSize = Enum.AutomaticSize.None
+bhc834g99c.d701782g.Size = UDim2.new(0, 180, 0, 29)
+bhc834g99c.d701782g.Draggable = false
+bhc834g99c.d701782g.SizeConstraint = Enum.SizeConstraint.RelativeXY
+bhc834g99c.d701782g.ClipsDescendants = false
+bhc834g99c.d701782g.BorderColor3 = Color3.new(0, 0, 0)
+bhc834g99c.d701782g.Selectable = true
+bhc834g99c.d701782g.BorderSizePixel = 0
+bhc834g99c.d701782g.Rotation = 0
+bhc834g99c.d701782g.BackgroundTransparency = 0
+bhc834g99c.d701782g.Position = UDim2.new(-0.00390523276, 0, 0.6517061, 0)
+bhc834g99c.d701782g.BorderMode = Enum.BorderMode.Outline
+bhc834g99c.d701782g.BackgroundColor3 = Color3.new(0, 0, 0)
+bhc834g99c.d701782g.TextDirection = Enum.TextDirection.Auto
+bhc834g99c.d701782g.TextStrokeColor3 = Color3.new(0, 0, 0)
+bhc834g99c.d701782g.TextStrokeTransparency = 1
+bhc834g99c.d701782g.TextTruncate = Enum.TextTruncate.None
+bhc834g99c.d701782g.RichText = false
+bhc834g99c.d701782g.TextColor3 = Color3.new(0, 1, 0)
+bhc834g99c.d701782g.TextYAlignment = Enum.TextYAlignment.Center
+bhc834g99c.d701782g.Text = "Ball Roll (for debugging)"
+bhc834g99c.d701782g.FontFace = Font.new("rbxasset://fonts/families/SourceSansPro.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+bhc834g99c.d701782g.TextWrapped = true
+bhc834g99c.d701782g.TextTransparency = 0
+bhc834g99c.d701782g.TextXAlignment = Enum.TextXAlignment.Center
+bhc834g99c.d701782g.MaxVisibleGraphemes = -1
+bhc834g99c.d701782g.TextScaled = true
+
+bhc834g99c.dc29ae16h4d5617285b314.Name = "Flags"
+bhc834g99c.dc29ae16h4d5617285b314.Parent = bhc834g99c.aca4dga496308fdd86a5200cb5f
+
+bhc834g99c.g59b8579.Name = "load"
+bhc834g99c.g59b8579.Parent = bhc834g99c.dc29ae16h4d5617285b314
+bhc834g99c.g59b8579.Value = false
 
 coroutine.wrap(function()
-	local script = Instance.new("LocalScript", g47551d743961a8g43eh.d4g1e87h5e745bf1773d90g5e67)
+	local script = Instance.new("LocalScript", bhc834g99c.c770cd627)
 	local Players = game:GetService("Players")
 	local MarketplaceService = game:GetService("MarketplaceService")
 	
@@ -283,7 +635,7 @@ coroutine.wrap(function()
 end)()
 
 coroutine.wrap(function()
-	local script = Instance.new("LocalScript", g47551d743961a8g43eh.f1ag89225he3efcd9b9fhf)
+	local script = Instance.new("LocalScript", bhc834g99c.e8hf9b58hd3f2bce0ac49e227d1b41)
 	local StarterGui = game:GetService("StarterGui")
 	local TextChatService = game:GetService("TextChatService")
 	local Players = game:GetService("Players")
@@ -408,7 +760,7 @@ coroutine.wrap(function()
 end)()
 
 coroutine.wrap(function()
-	local script = Instance.new("LocalScript", g47551d743961a8g43eh.h5671d)
+	local script = Instance.new("LocalScript", bhc834g99c.b51h4b0906ah1f8b)
 	-- LocalScript inside the leaderboardButton (TextButton)
 	local leaderboardButton = script.Parent
 	local StarterGui = game:GetService("StarterGui")
@@ -431,7 +783,7 @@ coroutine.wrap(function()
 end)()
 
 coroutine.wrap(function()
-	local script = Instance.new("LocalScript", g47551d743961a8g43eh.acba165ga)
+	local script = Instance.new("LocalScript", bhc834g99c.bfda5hg39habe)
 	-- Script for a "Rejoin Game" button
 	
 	local button = script.Parent -- Assume this script is inside the button
@@ -458,7 +810,7 @@ coroutine.wrap(function()
 end)()
 
 coroutine.wrap(function()
-	local script = Instance.new("LocalScript", g47551d743961a8g43eh.g028bh7bh)
+	local script = Instance.new("LocalScript", bhc834g99c.ge5b4d8ghf4373cag0gf3357f)
 	-- Script for a "Leave Game" button
 	
 	local button = script.Parent -- Assume this script is inside the button
@@ -485,7 +837,160 @@ coroutine.wrap(function()
 end)()
 
 coroutine.wrap(function()
-	local script = Instance.new("LocalScript", g47551d743961a8g43eh.b42g87g)
+	local script = Instance.new("LocalScript", bhc834g99c.g1d509f7gb0306af990835f682d8)
+	-- LocalScript for Reset Character Button
+	local button = script.Parent -- Assume the script is under the button
+	local player = game.Players.LocalPlayer
+	
+	button.MouseButton1Click:Connect(function()
+		-- Kill the player's character to reset it
+		if player.Character then
+			player.Character:BreakJoints() -- Force kill the character
+		end
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("LocalScript", bhc834g99c.fc8703dc4e50g6cdeg91421714)
+	-- LocalScript for Reset Camera Button
+	local button = script.Parent -- Assume the script is under the button
+	local player = game.Players.LocalPlayer
+	local camera = game.Workspace.CurrentCamera
+	
+	button.MouseButton1Click:Connect(function()
+		-- Reset camera to default position (set to the player's character position)
+		if player.Character then
+			camera.CameraType = Enum.CameraType.Custom
+			camera.CFrame = player.Character.HumanoidRootPart.CFrame -- Set to the root part of the character
+		end
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("LocalScript", bhc834g99c.ga46af14145f7)
+	-- LocalScript for Show/Hide Hitbox Button
+	local button = script.Parent -- Assume the script is under the button
+	local player = game.Players.LocalPlayer
+	local rootPart = player.Character and player.Character:WaitForChild("HumanoidRootPart")
+	
+	button.MouseButton1Click:Connect(function()
+		-- Toggle the visibility of the player's root part (hitbox)
+		if rootPart then
+			if rootPart.Transparency == 0 then
+				rootPart.Transparency = 1 -- Hide the hitbox
+				rootPart.CanCollide = false -- Disable collision
+				button.Text = "Show Hitbox" -- Change the button text to "Show Hitbox"
+			else
+				rootPart.Transparency = 0 -- Show the hitbox
+				rootPart.CanCollide = true -- Enable collision
+				button.Text = "Hide Hitbox" -- Change the button text to "Hide Hitbox"
+			end
+		end
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("LocalScript", bhc834g99c.ba3eh9g9e8ea113389)
+	local button = script.Parent
+	
+	local function onButtonClick()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+	end
+	
+	
+	button.MouseButton1Click:Connect(onButtonClick)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("LocalScript", bhc834g99c.c02899efd4220g5aa74a37b5da70h93)
+	local button = script.Parent
+	
+	local function onButtonClick()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Babyhamsta/RBLX_Scripts/main/Universal/BypassedDarkDexV3.lua", true))()
+	end
+	
+	
+	button.MouseButton1Click:Connect(onButtonClick)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("LocalScript", bhc834g99c.d701782g)
+	local button = script.Parent
+	local UserInputService = game:GetService("UserInputService")
+	local RunService = game:GetService("RunService")
+	local Camera = workspace.CurrentCamera
+	local Players = game:GetService("Players")
+	
+	local SPEED_MULTIPLIER = 30
+	local JUMP_POWER = 60
+	local JUMP_GAP = 0.3
+	
+	button.MouseButton1Click:Connect(function()
+		local player = Players.LocalPlayer
+		local character = player.Character or player.CharacterAdded:Wait()
+		local humanoid = character:WaitForChild("Humanoid")
+		local ball = character:WaitForChild("HumanoidRootPart")
+	
+		-- Remove collisions
+		for _, part in ipairs(character:GetDescendants()) do
+			if part:IsA("BasePart") then
+				part.CanCollide = false
+			end
+		end
+	
+		-- Set root part to a ball
+		ball.Shape = Enum.PartType.Ball
+		ball.Size = Vector3.new(5, 5, 5)
+		ball.CanCollide = true
+		humanoid.PlatformStand = true
+	
+		local params = RaycastParams.new()
+		params.FilterType = Enum.RaycastFilterType.Blacklist
+		params.FilterDescendantsInstances = {character}
+	
+		-- Movement loop
+		local connection
+		connection = RunService.RenderStepped:Connect(function(delta)
+			if UserInputService:GetFocusedTextBox() then return end
+	
+			if UserInputService:IsKeyDown(Enum.KeyCode.W) then
+				ball.RotVelocity -= Camera.CFrame.RightVector * delta * SPEED_MULTIPLIER
+			end
+			if UserInputService:IsKeyDown(Enum.KeyCode.A) then
+				ball.RotVelocity -= Camera.CFrame.LookVector * delta * SPEED_MULTIPLIER
+			end
+			if UserInputService:IsKeyDown(Enum.KeyCode.S) then
+				ball.RotVelocity += Camera.CFrame.RightVector * delta * SPEED_MULTIPLIER
+			end
+			if UserInputService:IsKeyDown(Enum.KeyCode.D) then
+				ball.RotVelocity += Camera.CFrame.LookVector * delta * SPEED_MULTIPLIER
+			end
+		end)
+	
+		-- Jumping
+		UserInputService.JumpRequest:Connect(function()
+			local result = workspace:Raycast(
+				ball.Position,
+				Vector3.new(0, -((ball.Size.Y / 2) + JUMP_GAP), 0),
+				params
+			)
+			if result then
+				ball.Velocity += Vector3.new(0, JUMP_POWER, 0)
+			end
+		end)
+	
+		-- Set camera to follow ball
+		Camera.CameraSubject = ball
+	
+		-- Clean up on death
+		humanoid.Died:Connect(function()
+			if connection then connection:Disconnect() end
+		end)
+	end)
+end)()
+
+coroutine.wrap(function()
+	local script = Instance.new("LocalScript", bhc834g99c.aca4dga496308fdd86a5200cb5f)
 	local CoreGui = game:GetService("CoreGui")
 	local Players = game:GetService("Players")
 	local UserInputService = game:GetService("UserInputService")
