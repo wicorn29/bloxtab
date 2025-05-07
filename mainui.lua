@@ -1,4 +1,4 @@
-
+wait(5)
 local f1h17670a5ehg890 = {
 	e8088c1a5801f3383hea81f2hdaa997c = Instance.new("ScreenGui"),
 	e1g22h4b8aeg65ad70d5 = Instance.new("Frame"),
