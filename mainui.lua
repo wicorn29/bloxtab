@@ -1,269 +1,269 @@
-wait(5)
-local f1h17670a5ehg890 = {
-	e8088c1a5801f3383hea81f2hdaa997c = Instance.new("ScreenGui"),
-	e1g22h4b8aeg65ad70d5 = Instance.new("Frame"),
-	hg34db48ggh24g297ceh = Instance.new("TextButton"),
-	d90edh900h20bha968f2e0baf7ed02 = Instance.new("Folder"),
-	f91a267eea2gcb1b8h = Instance.new("Frame"),
-	aa4b24gb20499hf4ca8ef44ff = Instance.new("TextButton"),
-	bf6d5hca0a472h017 = Instance.new("TextButton"),
-	bfg2eh = Instance.new("TextButton"),
-	c147273 = Instance.new("TextButton"),
-	gg7231cd1e6 = Instance.new("Folder"),
-	de2b3c3b400b7c0dh1a = Instance.new("BoolValue"),
-};
 
-f1h17670a5ehg890.e8088c1a5801f3383hea81f2hdaa997c.Name = "TopBarBlocker";
-f1h17670a5ehg890.e8088c1a5801f3383hea81f2hdaa997c.SafeAreaCompatibility = Enum.SafeAreaCompatibility.FullscreenExtension;
-f1h17670a5ehg890.e8088c1a5801f3383hea81f2hdaa997c.ClipToDeviceSafeArea = true;
-f1h17670a5ehg890.e8088c1a5801f3383hea81f2hdaa997c.IgnoreGuiInset = true;
-f1h17670a5ehg890.e8088c1a5801f3383hea81f2hdaa997c.ScreenInsets = Enum.ScreenInsets.DeviceSafeInsets;
-f1h17670a5ehg890.e8088c1a5801f3383hea81f2hdaa997c.DisplayOrder = 0;
-f1h17670a5ehg890.e8088c1a5801f3383hea81f2hdaa997c.Parent = game:GetService("CoreGui");
+local ee5g7 = {
+	bh1726ge8 = Instance.new("ScreenGui"),
+	c2f5cdd = Instance.new("Frame"),
+	a339dfd2c856da447 = Instance.new("TextButton"),
+	fa9f7c123c06ggc1d41e9e216a54 = Instance.new("Folder"),
+	bbah41ae54eb0afg4361chbcg5adh008 = Instance.new("Frame"),
+	fb2ag = Instance.new("TextButton"),
+	g2g9986g7h5c3fag65f = Instance.new("TextButton"),
+	heh5hhe5dag8hdb89d3e = Instance.new("TextButton"),
+	aah9aea92d95912a49a24h = Instance.new("TextButton"),
+	c7b8dhf70ch0cc750bh29a69 = Instance.new("Folder"),
+	f0c640c43e7 = Instance.new("BoolValue"),
+}
 
-f1h17670a5ehg890.e1g22h4b8aeg65ad70d5.Name = "TopBAR";
-f1h17670a5ehg890.e1g22h4b8aeg65ad70d5.LayoutOrder = 0;
-f1h17670a5ehg890.e1g22h4b8aeg65ad70d5.Active = false;
-f1h17670a5ehg890.e1g22h4b8aeg65ad70d5.Interactable = true;
-f1h17670a5ehg890.e1g22h4b8aeg65ad70d5.AnchorPoint = Vector2.new(0, 0);
-f1h17670a5ehg890.e1g22h4b8aeg65ad70d5.Visible = true;
-f1h17670a5ehg890.e1g22h4b8aeg65ad70d5.ZIndex = 10;
-f1h17670a5ehg890.e1g22h4b8aeg65ad70d5.AutomaticSize = Enum.AutomaticSize.None;
-f1h17670a5ehg890.e1g22h4b8aeg65ad70d5.Size = UDim2.new(1, 0, 0, 36);
-f1h17670a5ehg890.e1g22h4b8aeg65ad70d5.Draggable = false;
-f1h17670a5ehg890.e1g22h4b8aeg65ad70d5.SizeConstraint = Enum.SizeConstraint.RelativeXY;
-f1h17670a5ehg890.e1g22h4b8aeg65ad70d5.ClipsDescendants = false;
-f1h17670a5ehg890.e1g22h4b8aeg65ad70d5.BorderColor3 = Color3.new(0, 0, 0);
-f1h17670a5ehg890.e1g22h4b8aeg65ad70d5.Selectable = false;
-f1h17670a5ehg890.e1g22h4b8aeg65ad70d5.BorderSizePixel = 1;
-f1h17670a5ehg890.e1g22h4b8aeg65ad70d5.Rotation = 0;
-f1h17670a5ehg890.e1g22h4b8aeg65ad70d5.BackgroundTransparency = 0;
-f1h17670a5ehg890.e1g22h4b8aeg65ad70d5.Position = UDim2.new(0, 0, 0, 0);
-f1h17670a5ehg890.e1g22h4b8aeg65ad70d5.BorderMode = Enum.BorderMode.Outline;
-f1h17670a5ehg890.e1g22h4b8aeg65ad70d5.BackgroundColor3 = Color3.new(0, 0, 0);
-f1h17670a5ehg890.e1g22h4b8aeg65ad70d5.Style = Enum.FrameStyle.Custom;
-f1h17670a5ehg890.e1g22h4b8aeg65ad70d5.Parent = f1h17670a5ehg890.e8088c1a5801f3383hea81f2hdaa997c;
+ee5g7.bh1726ge8.Name = "TopBarBlocker"
+ee5g7.bh1726ge8.Parent = game:GetService("CoreGui")
+ee5g7.bh1726ge8.SafeAreaCompatibility = Enum.SafeAreaCompatibility.FullscreenExtension
+ee5g7.bh1726ge8.ClipToDeviceSafeArea = true
+ee5g7.bh1726ge8.IgnoreGuiInset = true
+ee5g7.bh1726ge8.ScreenInsets = Enum.ScreenInsets.DeviceSafeInsets
+ee5g7.bh1726ge8.DisplayOrder = 0
 
-f1h17670a5ehg890.hg34db48ggh24g297ceh.Name = "main";
-f1h17670a5ehg890.hg34db48ggh24g297ceh.AutoButtonColor = true;
-f1h17670a5ehg890.hg34db48ggh24g297ceh.LayoutOrder = 0;
-f1h17670a5ehg890.hg34db48ggh24g297ceh.Active = true;
-f1h17670a5ehg890.hg34db48ggh24g297ceh.Interactable = true;
-f1h17670a5ehg890.hg34db48ggh24g297ceh.AnchorPoint = Vector2.new(0, 0);
-f1h17670a5ehg890.hg34db48ggh24g297ceh.Visible = true;
-f1h17670a5ehg890.hg34db48ggh24g297ceh.ZIndex = 11;
-f1h17670a5ehg890.hg34db48ggh24g297ceh.AutomaticSize = Enum.AutomaticSize.None;
-f1h17670a5ehg890.hg34db48ggh24g297ceh.Size = UDim2.new(0.00797448121, 300, 1, 0);
-f1h17670a5ehg890.hg34db48ggh24g297ceh.Draggable = false;
-f1h17670a5ehg890.hg34db48ggh24g297ceh.SizeConstraint = Enum.SizeConstraint.RelativeXY;
-f1h17670a5ehg890.hg34db48ggh24g297ceh.ClipsDescendants = false;
-f1h17670a5ehg890.hg34db48ggh24g297ceh.BorderColor3 = Color3.new(0, 0, 0);
-f1h17670a5ehg890.hg34db48ggh24g297ceh.Selectable = true;
-f1h17670a5ehg890.hg34db48ggh24g297ceh.BorderSizePixel = 1;
-f1h17670a5ehg890.hg34db48ggh24g297ceh.Rotation = 0;
-f1h17670a5ehg890.hg34db48ggh24g297ceh.BackgroundTransparency = 1;
-f1h17670a5ehg890.hg34db48ggh24g297ceh.Position = UDim2.new(0, 0, 0, 0);
-f1h17670a5ehg890.hg34db48ggh24g297ceh.BorderMode = Enum.BorderMode.Outline;
-f1h17670a5ehg890.hg34db48ggh24g297ceh.BackgroundColor3 = Color3.new(0, 0, 0);
-f1h17670a5ehg890.hg34db48ggh24g297ceh.TextDirection = Enum.TextDirection.Auto;
-f1h17670a5ehg890.hg34db48ggh24g297ceh.TextStrokeColor3 = Color3.new(0, 0, 0);
-f1h17670a5ehg890.hg34db48ggh24g297ceh.TextStrokeTransparency = 1;
-f1h17670a5ehg890.hg34db48ggh24g297ceh.TextTruncate = Enum.TextTruncate.None;
-f1h17670a5ehg890.hg34db48ggh24g297ceh.RichText = false;
-f1h17670a5ehg890.hg34db48ggh24g297ceh.TextColor3 = Color3.new(1, 1, 1);
-f1h17670a5ehg890.hg34db48ggh24g297ceh.TextYAlignment = Enum.TextYAlignment.Center;
-f1h17670a5ehg890.hg34db48ggh24g297ceh.Text = "ROBLOX > ";
-f1h17670a5ehg890.hg34db48ggh24g297ceh.FontFace = Font.new("rbxasset://fonts/families/LegacyArial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-f1h17670a5ehg890.hg34db48ggh24g297ceh.TextWrapped = true;
-f1h17670a5ehg890.hg34db48ggh24g297ceh.TextTransparency = 0;
-f1h17670a5ehg890.hg34db48ggh24g297ceh.TextXAlignment = Enum.TextXAlignment.Left;
-f1h17670a5ehg890.hg34db48ggh24g297ceh.MaxVisibleGraphemes = -1;
-f1h17670a5ehg890.hg34db48ggh24g297ceh.TextScaled = true;
-f1h17670a5ehg890.hg34db48ggh24g297ceh.Parent = f1h17670a5ehg890.e1g22h4b8aeg65ad70d5;
+ee5g7.c2f5cdd.Name = "TopBAR"
+ee5g7.c2f5cdd.Parent = ee5g7.bh1726ge8
+ee5g7.c2f5cdd.LayoutOrder = 0
+ee5g7.c2f5cdd.Active = false
+ee5g7.c2f5cdd.Interactable = true
+ee5g7.c2f5cdd.AnchorPoint = Vector2.new(0, 0)
+ee5g7.c2f5cdd.Visible = true
+ee5g7.c2f5cdd.ZIndex = 10
+ee5g7.c2f5cdd.AutomaticSize = Enum.AutomaticSize.None
+ee5g7.c2f5cdd.Size = UDim2.new(1, 0, 0, 36)
+ee5g7.c2f5cdd.Draggable = false
+ee5g7.c2f5cdd.SizeConstraint = Enum.SizeConstraint.RelativeXY
+ee5g7.c2f5cdd.ClipsDescendants = false
+ee5g7.c2f5cdd.BorderColor3 = Color3.new(0, 0, 0)
+ee5g7.c2f5cdd.Selectable = false
+ee5g7.c2f5cdd.BorderSizePixel = 1
+ee5g7.c2f5cdd.Rotation = 0
+ee5g7.c2f5cdd.BackgroundTransparency = 0
+ee5g7.c2f5cdd.Position = UDim2.new(0, 0, 0, 0)
+ee5g7.c2f5cdd.BorderMode = Enum.BorderMode.Outline
+ee5g7.c2f5cdd.BackgroundColor3 = Color3.new(0, 0, 0)
+ee5g7.c2f5cdd.Style = Enum.FrameStyle.Custom
 
-f1h17670a5ehg890.d90edh900h20bha968f2e0baf7ed02.Name = "Menus";
-f1h17670a5ehg890.d90edh900h20bha968f2e0baf7ed02.Parent = f1h17670a5ehg890.e8088c1a5801f3383hea81f2hdaa997c;
+ee5g7.a339dfd2c856da447.Name = "main"
+ee5g7.a339dfd2c856da447.Parent = ee5g7.c2f5cdd
+ee5g7.a339dfd2c856da447.AutoButtonColor = true
+ee5g7.a339dfd2c856da447.LayoutOrder = 0
+ee5g7.a339dfd2c856da447.Active = true
+ee5g7.a339dfd2c856da447.Interactable = true
+ee5g7.a339dfd2c856da447.AnchorPoint = Vector2.new(0, 0)
+ee5g7.a339dfd2c856da447.Visible = true
+ee5g7.a339dfd2c856da447.ZIndex = 11
+ee5g7.a339dfd2c856da447.AutomaticSize = Enum.AutomaticSize.None
+ee5g7.a339dfd2c856da447.Size = UDim2.new(0.00797448121, 300, 1, 0)
+ee5g7.a339dfd2c856da447.Draggable = false
+ee5g7.a339dfd2c856da447.SizeConstraint = Enum.SizeConstraint.RelativeXY
+ee5g7.a339dfd2c856da447.ClipsDescendants = false
+ee5g7.a339dfd2c856da447.BorderColor3 = Color3.new(0, 0, 0)
+ee5g7.a339dfd2c856da447.Selectable = true
+ee5g7.a339dfd2c856da447.BorderSizePixel = 1
+ee5g7.a339dfd2c856da447.Rotation = 0
+ee5g7.a339dfd2c856da447.BackgroundTransparency = 1
+ee5g7.a339dfd2c856da447.Position = UDim2.new(0, 0, 0, 0)
+ee5g7.a339dfd2c856da447.BorderMode = Enum.BorderMode.Outline
+ee5g7.a339dfd2c856da447.BackgroundColor3 = Color3.new(0, 0, 0)
+ee5g7.a339dfd2c856da447.TextDirection = Enum.TextDirection.Auto
+ee5g7.a339dfd2c856da447.TextStrokeColor3 = Color3.new(0, 0, 0)
+ee5g7.a339dfd2c856da447.TextStrokeTransparency = 1
+ee5g7.a339dfd2c856da447.TextTruncate = Enum.TextTruncate.None
+ee5g7.a339dfd2c856da447.RichText = false
+ee5g7.a339dfd2c856da447.TextColor3 = Color3.new(1, 1, 1)
+ee5g7.a339dfd2c856da447.TextYAlignment = Enum.TextYAlignment.Center
+ee5g7.a339dfd2c856da447.Text = "ROBLOX > "
+ee5g7.a339dfd2c856da447.FontFace = Font.new("rbxasset://fonts/families/LegacyArial.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+ee5g7.a339dfd2c856da447.TextWrapped = true
+ee5g7.a339dfd2c856da447.TextTransparency = 0
+ee5g7.a339dfd2c856da447.TextXAlignment = Enum.TextXAlignment.Left
+ee5g7.a339dfd2c856da447.MaxVisibleGraphemes = -1
+ee5g7.a339dfd2c856da447.TextScaled = true
 
-f1h17670a5ehg890.f91a267eea2gcb1b8h.Name = "main";
-f1h17670a5ehg890.f91a267eea2gcb1b8h.LayoutOrder = 0;
-f1h17670a5ehg890.f91a267eea2gcb1b8h.Active = false;
-f1h17670a5ehg890.f91a267eea2gcb1b8h.Interactable = true;
-f1h17670a5ehg890.f91a267eea2gcb1b8h.AnchorPoint = Vector2.new(0, 0);
-f1h17670a5ehg890.f91a267eea2gcb1b8h.Visible = false;
-f1h17670a5ehg890.f91a267eea2gcb1b8h.ZIndex = 10;
-f1h17670a5ehg890.f91a267eea2gcb1b8h.AutomaticSize = Enum.AutomaticSize.None;
-f1h17670a5ehg890.f91a267eea2gcb1b8h.Size = UDim2.new(0, 180, 0, 144);
-f1h17670a5ehg890.f91a267eea2gcb1b8h.Draggable = false;
-f1h17670a5ehg890.f91a267eea2gcb1b8h.SizeConstraint = Enum.SizeConstraint.RelativeXY;
-f1h17670a5ehg890.f91a267eea2gcb1b8h.ClipsDescendants = false;
-f1h17670a5ehg890.f91a267eea2gcb1b8h.BorderColor3 = Color3.new(0, 0, 0);
-f1h17670a5ehg890.f91a267eea2gcb1b8h.Selectable = false;
-f1h17670a5ehg890.f91a267eea2gcb1b8h.BorderSizePixel = 0;
-f1h17670a5ehg890.f91a267eea2gcb1b8h.Rotation = 0;
-f1h17670a5ehg890.f91a267eea2gcb1b8h.BackgroundTransparency = 0;
-f1h17670a5ehg890.f91a267eea2gcb1b8h.Position = UDim2.new(0, 0, 0, 36);
-f1h17670a5ehg890.f91a267eea2gcb1b8h.BorderMode = Enum.BorderMode.Outline;
-f1h17670a5ehg890.f91a267eea2gcb1b8h.BackgroundColor3 = Color3.new(0, 0, 0);
-f1h17670a5ehg890.f91a267eea2gcb1b8h.Style = Enum.FrameStyle.Custom;
-f1h17670a5ehg890.f91a267eea2gcb1b8h.Parent = f1h17670a5ehg890.d90edh900h20bha968f2e0baf7ed02;
+ee5g7.fa9f7c123c06ggc1d41e9e216a54.Name = "Menus"
+ee5g7.fa9f7c123c06ggc1d41e9e216a54.Parent = ee5g7.bh1726ge8
 
-f1h17670a5ehg890.aa4b24gb20499hf4ca8ef44ff.Name = "Chat";
-f1h17670a5ehg890.aa4b24gb20499hf4ca8ef44ff.AutoButtonColor = true;
-f1h17670a5ehg890.aa4b24gb20499hf4ca8ef44ff.LayoutOrder = 0;
-f1h17670a5ehg890.aa4b24gb20499hf4ca8ef44ff.Active = true;
-f1h17670a5ehg890.aa4b24gb20499hf4ca8ef44ff.Interactable = true;
-f1h17670a5ehg890.aa4b24gb20499hf4ca8ef44ff.AnchorPoint = Vector2.new(0, 0);
-f1h17670a5ehg890.aa4b24gb20499hf4ca8ef44ff.Visible = true;
-f1h17670a5ehg890.aa4b24gb20499hf4ca8ef44ff.ZIndex = 11;
-f1h17670a5ehg890.aa4b24gb20499hf4ca8ef44ff.AutomaticSize = Enum.AutomaticSize.None;
-f1h17670a5ehg890.aa4b24gb20499hf4ca8ef44ff.Size = UDim2.new(0, 180, 0, 29);
-f1h17670a5ehg890.aa4b24gb20499hf4ca8ef44ff.Draggable = false;
-f1h17670a5ehg890.aa4b24gb20499hf4ca8ef44ff.SizeConstraint = Enum.SizeConstraint.RelativeXY;
-f1h17670a5ehg890.aa4b24gb20499hf4ca8ef44ff.ClipsDescendants = false;
-f1h17670a5ehg890.aa4b24gb20499hf4ca8ef44ff.BorderColor3 = Color3.new(0, 0, 0);
-f1h17670a5ehg890.aa4b24gb20499hf4ca8ef44ff.Selectable = true;
-f1h17670a5ehg890.aa4b24gb20499hf4ca8ef44ff.BorderSizePixel = 0;
-f1h17670a5ehg890.aa4b24gb20499hf4ca8ef44ff.Rotation = 0;
-f1h17670a5ehg890.aa4b24gb20499hf4ca8ef44ff.BackgroundTransparency = 0;
-f1h17670a5ehg890.aa4b24gb20499hf4ca8ef44ff.Position = UDim2.new(-0.00239223894, 0, -0.00464948034, 0);
-f1h17670a5ehg890.aa4b24gb20499hf4ca8ef44ff.BorderMode = Enum.BorderMode.Outline;
-f1h17670a5ehg890.aa4b24gb20499hf4ca8ef44ff.BackgroundColor3 = Color3.new(0, 0, 0);
-f1h17670a5ehg890.aa4b24gb20499hf4ca8ef44ff.TextDirection = Enum.TextDirection.Auto;
-f1h17670a5ehg890.aa4b24gb20499hf4ca8ef44ff.TextStrokeColor3 = Color3.new(0, 0, 0);
-f1h17670a5ehg890.aa4b24gb20499hf4ca8ef44ff.TextStrokeTransparency = 1;
-f1h17670a5ehg890.aa4b24gb20499hf4ca8ef44ff.TextTruncate = Enum.TextTruncate.None;
-f1h17670a5ehg890.aa4b24gb20499hf4ca8ef44ff.RichText = false;
-f1h17670a5ehg890.aa4b24gb20499hf4ca8ef44ff.TextColor3 = Color3.new(0, 1, 0);
-f1h17670a5ehg890.aa4b24gb20499hf4ca8ef44ff.TextYAlignment = Enum.TextYAlignment.Center;
-f1h17670a5ehg890.aa4b24gb20499hf4ca8ef44ff.Text = "Chat has crashed! :(";
-f1h17670a5ehg890.aa4b24gb20499hf4ca8ef44ff.FontFace = Font.new("rbxasset://fonts/families/SourceSansPro.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-f1h17670a5ehg890.aa4b24gb20499hf4ca8ef44ff.TextWrapped = true;
-f1h17670a5ehg890.aa4b24gb20499hf4ca8ef44ff.TextTransparency = 0;
-f1h17670a5ehg890.aa4b24gb20499hf4ca8ef44ff.TextXAlignment = Enum.TextXAlignment.Center;
-f1h17670a5ehg890.aa4b24gb20499hf4ca8ef44ff.MaxVisibleGraphemes = -1;
-f1h17670a5ehg890.aa4b24gb20499hf4ca8ef44ff.TextScaled = true;
-f1h17670a5ehg890.aa4b24gb20499hf4ca8ef44ff.Parent = f1h17670a5ehg890.f91a267eea2gcb1b8h;
+ee5g7.bbah41ae54eb0afg4361chbcg5adh008.Name = "main"
+ee5g7.bbah41ae54eb0afg4361chbcg5adh008.Parent = ee5g7.fa9f7c123c06ggc1d41e9e216a54
+ee5g7.bbah41ae54eb0afg4361chbcg5adh008.LayoutOrder = 0
+ee5g7.bbah41ae54eb0afg4361chbcg5adh008.Active = false
+ee5g7.bbah41ae54eb0afg4361chbcg5adh008.Interactable = true
+ee5g7.bbah41ae54eb0afg4361chbcg5adh008.AnchorPoint = Vector2.new(0, 0)
+ee5g7.bbah41ae54eb0afg4361chbcg5adh008.Visible = false
+ee5g7.bbah41ae54eb0afg4361chbcg5adh008.ZIndex = 10
+ee5g7.bbah41ae54eb0afg4361chbcg5adh008.AutomaticSize = Enum.AutomaticSize.None
+ee5g7.bbah41ae54eb0afg4361chbcg5adh008.Size = UDim2.new(0, 180, 0, 144)
+ee5g7.bbah41ae54eb0afg4361chbcg5adh008.Draggable = false
+ee5g7.bbah41ae54eb0afg4361chbcg5adh008.SizeConstraint = Enum.SizeConstraint.RelativeXY
+ee5g7.bbah41ae54eb0afg4361chbcg5adh008.ClipsDescendants = false
+ee5g7.bbah41ae54eb0afg4361chbcg5adh008.BorderColor3 = Color3.new(0, 0, 0)
+ee5g7.bbah41ae54eb0afg4361chbcg5adh008.Selectable = false
+ee5g7.bbah41ae54eb0afg4361chbcg5adh008.BorderSizePixel = 0
+ee5g7.bbah41ae54eb0afg4361chbcg5adh008.Rotation = 0
+ee5g7.bbah41ae54eb0afg4361chbcg5adh008.BackgroundTransparency = 0
+ee5g7.bbah41ae54eb0afg4361chbcg5adh008.Position = UDim2.new(0, 0, 0, 36)
+ee5g7.bbah41ae54eb0afg4361chbcg5adh008.BorderMode = Enum.BorderMode.Outline
+ee5g7.bbah41ae54eb0afg4361chbcg5adh008.BackgroundColor3 = Color3.new(0, 0, 0)
+ee5g7.bbah41ae54eb0afg4361chbcg5adh008.Style = Enum.FrameStyle.Custom
 
-f1h17670a5ehg890.bf6d5hca0a472h017.Name = "LS";
-f1h17670a5ehg890.bf6d5hca0a472h017.AutoButtonColor = true;
-f1h17670a5ehg890.bf6d5hca0a472h017.LayoutOrder = 0;
-f1h17670a5ehg890.bf6d5hca0a472h017.Active = true;
-f1h17670a5ehg890.bf6d5hca0a472h017.Interactable = true;
-f1h17670a5ehg890.bf6d5hca0a472h017.AnchorPoint = Vector2.new(0, 0);
-f1h17670a5ehg890.bf6d5hca0a472h017.Visible = true;
-f1h17670a5ehg890.bf6d5hca0a472h017.ZIndex = 11;
-f1h17670a5ehg890.bf6d5hca0a472h017.AutomaticSize = Enum.AutomaticSize.None;
-f1h17670a5ehg890.bf6d5hca0a472h017.Size = UDim2.new(0, 180, 0, 29);
-f1h17670a5ehg890.bf6d5hca0a472h017.Draggable = false;
-f1h17670a5ehg890.bf6d5hca0a472h017.SizeConstraint = Enum.SizeConstraint.RelativeXY;
-f1h17670a5ehg890.bf6d5hca0a472h017.ClipsDescendants = false;
-f1h17670a5ehg890.bf6d5hca0a472h017.BorderColor3 = Color3.new(0, 0, 0);
-f1h17670a5ehg890.bf6d5hca0a472h017.Selectable = true;
-f1h17670a5ehg890.bf6d5hca0a472h017.BorderSizePixel = 0;
-f1h17670a5ehg890.bf6d5hca0a472h017.Rotation = 0;
-f1h17670a5ehg890.bf6d5hca0a472h017.BackgroundTransparency = 0;
-f1h17670a5ehg890.bf6d5hca0a472h017.Position = UDim2.new(-0.00239223894, 0, 0.196739405, 0);
-f1h17670a5ehg890.bf6d5hca0a472h017.BorderMode = Enum.BorderMode.Outline;
-f1h17670a5ehg890.bf6d5hca0a472h017.BackgroundColor3 = Color3.new(0, 0, 0);
-f1h17670a5ehg890.bf6d5hca0a472h017.TextDirection = Enum.TextDirection.Auto;
-f1h17670a5ehg890.bf6d5hca0a472h017.TextStrokeColor3 = Color3.new(0, 0, 0);
-f1h17670a5ehg890.bf6d5hca0a472h017.TextStrokeTransparency = 1;
-f1h17670a5ehg890.bf6d5hca0a472h017.TextTruncate = Enum.TextTruncate.None;
-f1h17670a5ehg890.bf6d5hca0a472h017.RichText = false;
-f1h17670a5ehg890.bf6d5hca0a472h017.TextColor3 = Color3.new(0, 1, 0);
-f1h17670a5ehg890.bf6d5hca0a472h017.TextYAlignment = Enum.TextYAlignment.Center;
-f1h17670a5ehg890.bf6d5hca0a472h017.Text = "Leaderboard has crashed! :(";
-f1h17670a5ehg890.bf6d5hca0a472h017.FontFace = Font.new("rbxasset://fonts/families/SourceSansPro.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-f1h17670a5ehg890.bf6d5hca0a472h017.TextWrapped = true;
-f1h17670a5ehg890.bf6d5hca0a472h017.TextTransparency = 0;
-f1h17670a5ehg890.bf6d5hca0a472h017.TextXAlignment = Enum.TextXAlignment.Center;
-f1h17670a5ehg890.bf6d5hca0a472h017.MaxVisibleGraphemes = -1;
-f1h17670a5ehg890.bf6d5hca0a472h017.TextScaled = true;
-f1h17670a5ehg890.bf6d5hca0a472h017.Parent = f1h17670a5ehg890.f91a267eea2gcb1b8h;
+ee5g7.fb2ag.Name = "Chat"
+ee5g7.fb2ag.Parent = ee5g7.bbah41ae54eb0afg4361chbcg5adh008
+ee5g7.fb2ag.AutoButtonColor = true
+ee5g7.fb2ag.LayoutOrder = 0
+ee5g7.fb2ag.Active = true
+ee5g7.fb2ag.Interactable = true
+ee5g7.fb2ag.AnchorPoint = Vector2.new(0, 0)
+ee5g7.fb2ag.Visible = true
+ee5g7.fb2ag.ZIndex = 11
+ee5g7.fb2ag.AutomaticSize = Enum.AutomaticSize.None
+ee5g7.fb2ag.Size = UDim2.new(0, 180, 0, 29)
+ee5g7.fb2ag.Draggable = false
+ee5g7.fb2ag.SizeConstraint = Enum.SizeConstraint.RelativeXY
+ee5g7.fb2ag.ClipsDescendants = false
+ee5g7.fb2ag.BorderColor3 = Color3.new(0, 0, 0)
+ee5g7.fb2ag.Selectable = true
+ee5g7.fb2ag.BorderSizePixel = 0
+ee5g7.fb2ag.Rotation = 0
+ee5g7.fb2ag.BackgroundTransparency = 0
+ee5g7.fb2ag.Position = UDim2.new(-0.00239223894, 0, -0.00464948034, 0)
+ee5g7.fb2ag.BorderMode = Enum.BorderMode.Outline
+ee5g7.fb2ag.BackgroundColor3 = Color3.new(0, 0, 0)
+ee5g7.fb2ag.TextDirection = Enum.TextDirection.Auto
+ee5g7.fb2ag.TextStrokeColor3 = Color3.new(0, 0, 0)
+ee5g7.fb2ag.TextStrokeTransparency = 1
+ee5g7.fb2ag.TextTruncate = Enum.TextTruncate.None
+ee5g7.fb2ag.RichText = false
+ee5g7.fb2ag.TextColor3 = Color3.new(0, 1, 0)
+ee5g7.fb2ag.TextYAlignment = Enum.TextYAlignment.Center
+ee5g7.fb2ag.Text = "Chat has crashed! :("
+ee5g7.fb2ag.FontFace = Font.new("rbxasset://fonts/families/SourceSansPro.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+ee5g7.fb2ag.TextWrapped = true
+ee5g7.fb2ag.TextTransparency = 0
+ee5g7.fb2ag.TextXAlignment = Enum.TextXAlignment.Center
+ee5g7.fb2ag.MaxVisibleGraphemes = -1
+ee5g7.fb2ag.TextScaled = true
 
-f1h17670a5ehg890.bfg2eh.Name = "Rejoin";
-f1h17670a5ehg890.bfg2eh.AutoButtonColor = true;
-f1h17670a5ehg890.bfg2eh.LayoutOrder = 0;
-f1h17670a5ehg890.bfg2eh.Active = true;
-f1h17670a5ehg890.bfg2eh.Interactable = true;
-f1h17670a5ehg890.bfg2eh.AnchorPoint = Vector2.new(0, 0);
-f1h17670a5ehg890.bfg2eh.Visible = true;
-f1h17670a5ehg890.bfg2eh.ZIndex = 11;
-f1h17670a5ehg890.bfg2eh.AutomaticSize = Enum.AutomaticSize.None;
-f1h17670a5ehg890.bfg2eh.Size = UDim2.new(0, 180, 0, 29);
-f1h17670a5ehg890.bfg2eh.Draggable = false;
-f1h17670a5ehg890.bfg2eh.SizeConstraint = Enum.SizeConstraint.RelativeXY;
-f1h17670a5ehg890.bfg2eh.ClipsDescendants = false;
-f1h17670a5ehg890.bfg2eh.BorderColor3 = Color3.new(0, 0, 0);
-f1h17670a5ehg890.bfg2eh.Selectable = true;
-f1h17670a5ehg890.bfg2eh.BorderSizePixel = 0;
-f1h17670a5ehg890.bfg2eh.Rotation = 0;
-f1h17670a5ehg890.bfg2eh.BackgroundTransparency = 0;
-f1h17670a5ehg890.bfg2eh.Position = UDim2.new(-0.00239223894, 0, 0.599517167, 0);
-f1h17670a5ehg890.bfg2eh.BorderMode = Enum.BorderMode.Outline;
-f1h17670a5ehg890.bfg2eh.BackgroundColor3 = Color3.new(0, 0, 0);
-f1h17670a5ehg890.bfg2eh.TextDirection = Enum.TextDirection.Auto;
-f1h17670a5ehg890.bfg2eh.TextStrokeColor3 = Color3.new(0, 0, 0);
-f1h17670a5ehg890.bfg2eh.TextStrokeTransparency = 1;
-f1h17670a5ehg890.bfg2eh.TextTruncate = Enum.TextTruncate.None;
-f1h17670a5ehg890.bfg2eh.RichText = false;
-f1h17670a5ehg890.bfg2eh.TextColor3 = Color3.new(0, 1, 0);
-f1h17670a5ehg890.bfg2eh.TextYAlignment = Enum.TextYAlignment.Center;
-f1h17670a5ehg890.bfg2eh.Text = "Rejoin";
-f1h17670a5ehg890.bfg2eh.FontFace = Font.new("rbxasset://fonts/families/SourceSansPro.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-f1h17670a5ehg890.bfg2eh.TextWrapped = true;
-f1h17670a5ehg890.bfg2eh.TextTransparency = 0;
-f1h17670a5ehg890.bfg2eh.TextXAlignment = Enum.TextXAlignment.Center;
-f1h17670a5ehg890.bfg2eh.MaxVisibleGraphemes = -1;
-f1h17670a5ehg890.bfg2eh.TextScaled = true;
-f1h17670a5ehg890.bfg2eh.Parent = f1h17670a5ehg890.f91a267eea2gcb1b8h;
+ee5g7.g2g9986g7h5c3fag65f.Name = "LS"
+ee5g7.g2g9986g7h5c3fag65f.Parent = ee5g7.bbah41ae54eb0afg4361chbcg5adh008
+ee5g7.g2g9986g7h5c3fag65f.AutoButtonColor = true
+ee5g7.g2g9986g7h5c3fag65f.LayoutOrder = 0
+ee5g7.g2g9986g7h5c3fag65f.Active = true
+ee5g7.g2g9986g7h5c3fag65f.Interactable = true
+ee5g7.g2g9986g7h5c3fag65f.AnchorPoint = Vector2.new(0, 0)
+ee5g7.g2g9986g7h5c3fag65f.Visible = true
+ee5g7.g2g9986g7h5c3fag65f.ZIndex = 11
+ee5g7.g2g9986g7h5c3fag65f.AutomaticSize = Enum.AutomaticSize.None
+ee5g7.g2g9986g7h5c3fag65f.Size = UDim2.new(0, 180, 0, 29)
+ee5g7.g2g9986g7h5c3fag65f.Draggable = false
+ee5g7.g2g9986g7h5c3fag65f.SizeConstraint = Enum.SizeConstraint.RelativeXY
+ee5g7.g2g9986g7h5c3fag65f.ClipsDescendants = false
+ee5g7.g2g9986g7h5c3fag65f.BorderColor3 = Color3.new(0, 0, 0)
+ee5g7.g2g9986g7h5c3fag65f.Selectable = true
+ee5g7.g2g9986g7h5c3fag65f.BorderSizePixel = 0
+ee5g7.g2g9986g7h5c3fag65f.Rotation = 0
+ee5g7.g2g9986g7h5c3fag65f.BackgroundTransparency = 0
+ee5g7.g2g9986g7h5c3fag65f.Position = UDim2.new(-0.00239223894, 0, 0.196739405, 0)
+ee5g7.g2g9986g7h5c3fag65f.BorderMode = Enum.BorderMode.Outline
+ee5g7.g2g9986g7h5c3fag65f.BackgroundColor3 = Color3.new(0, 0, 0)
+ee5g7.g2g9986g7h5c3fag65f.TextDirection = Enum.TextDirection.Auto
+ee5g7.g2g9986g7h5c3fag65f.TextStrokeColor3 = Color3.new(0, 0, 0)
+ee5g7.g2g9986g7h5c3fag65f.TextStrokeTransparency = 1
+ee5g7.g2g9986g7h5c3fag65f.TextTruncate = Enum.TextTruncate.None
+ee5g7.g2g9986g7h5c3fag65f.RichText = false
+ee5g7.g2g9986g7h5c3fag65f.TextColor3 = Color3.new(0, 1, 0)
+ee5g7.g2g9986g7h5c3fag65f.TextYAlignment = Enum.TextYAlignment.Center
+ee5g7.g2g9986g7h5c3fag65f.Text = "Leaderboard has crashed! :("
+ee5g7.g2g9986g7h5c3fag65f.FontFace = Font.new("rbxasset://fonts/families/SourceSansPro.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+ee5g7.g2g9986g7h5c3fag65f.TextWrapped = true
+ee5g7.g2g9986g7h5c3fag65f.TextTransparency = 0
+ee5g7.g2g9986g7h5c3fag65f.TextXAlignment = Enum.TextXAlignment.Center
+ee5g7.g2g9986g7h5c3fag65f.MaxVisibleGraphemes = -1
+ee5g7.g2g9986g7h5c3fag65f.TextScaled = true
 
-f1h17670a5ehg890.c147273.Name = "Leave";
-f1h17670a5ehg890.c147273.AutoButtonColor = true;
-f1h17670a5ehg890.c147273.LayoutOrder = 0;
-f1h17670a5ehg890.c147273.Active = true;
-f1h17670a5ehg890.c147273.Interactable = true;
-f1h17670a5ehg890.c147273.AnchorPoint = Vector2.new(0, 0);
-f1h17670a5ehg890.c147273.Visible = true;
-f1h17670a5ehg890.c147273.ZIndex = 11;
-f1h17670a5ehg890.c147273.AutomaticSize = Enum.AutomaticSize.None;
-f1h17670a5ehg890.c147273.Size = UDim2.new(0, 180, 0, 29);
-f1h17670a5ehg890.c147273.Draggable = false;
-f1h17670a5ehg890.c147273.SizeConstraint = Enum.SizeConstraint.RelativeXY;
-f1h17670a5ehg890.c147273.ClipsDescendants = false;
-f1h17670a5ehg890.c147273.BorderColor3 = Color3.new(0, 0, 0);
-f1h17670a5ehg890.c147273.Selectable = true;
-f1h17670a5ehg890.c147273.BorderSizePixel = 0;
-f1h17670a5ehg890.c147273.Rotation = 0;
-f1h17670a5ehg890.c147273.BackgroundTransparency = 0;
-f1h17670a5ehg890.c147273.Position = UDim2.new(-0.00239223894, 0, 0.793961644, 0);
-f1h17670a5ehg890.c147273.BorderMode = Enum.BorderMode.Outline;
-f1h17670a5ehg890.c147273.BackgroundColor3 = Color3.new(0, 0, 0);
-f1h17670a5ehg890.c147273.TextDirection = Enum.TextDirection.Auto;
-f1h17670a5ehg890.c147273.TextStrokeColor3 = Color3.new(0, 0, 0);
-f1h17670a5ehg890.c147273.TextStrokeTransparency = 1;
-f1h17670a5ehg890.c147273.TextTruncate = Enum.TextTruncate.None;
-f1h17670a5ehg890.c147273.RichText = false;
-f1h17670a5ehg890.c147273.TextColor3 = Color3.new(0, 1, 0);
-f1h17670a5ehg890.c147273.TextYAlignment = Enum.TextYAlignment.Center;
-f1h17670a5ehg890.c147273.Text = "Leave Game";
-f1h17670a5ehg890.c147273.FontFace = Font.new("rbxasset://fonts/families/SourceSansPro.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-f1h17670a5ehg890.c147273.TextWrapped = true;
-f1h17670a5ehg890.c147273.TextTransparency = 0;
-f1h17670a5ehg890.c147273.TextXAlignment = Enum.TextXAlignment.Center;
-f1h17670a5ehg890.c147273.MaxVisibleGraphemes = -1;
-f1h17670a5ehg890.c147273.TextScaled = true;
-f1h17670a5ehg890.c147273.Parent = f1h17670a5ehg890.f91a267eea2gcb1b8h;
+ee5g7.heh5hhe5dag8hdb89d3e.Name = "Rejoin"
+ee5g7.heh5hhe5dag8hdb89d3e.Parent = ee5g7.bbah41ae54eb0afg4361chbcg5adh008
+ee5g7.heh5hhe5dag8hdb89d3e.AutoButtonColor = true
+ee5g7.heh5hhe5dag8hdb89d3e.LayoutOrder = 0
+ee5g7.heh5hhe5dag8hdb89d3e.Active = true
+ee5g7.heh5hhe5dag8hdb89d3e.Interactable = true
+ee5g7.heh5hhe5dag8hdb89d3e.AnchorPoint = Vector2.new(0, 0)
+ee5g7.heh5hhe5dag8hdb89d3e.Visible = true
+ee5g7.heh5hhe5dag8hdb89d3e.ZIndex = 11
+ee5g7.heh5hhe5dag8hdb89d3e.AutomaticSize = Enum.AutomaticSize.None
+ee5g7.heh5hhe5dag8hdb89d3e.Size = UDim2.new(0, 180, 0, 29)
+ee5g7.heh5hhe5dag8hdb89d3e.Draggable = false
+ee5g7.heh5hhe5dag8hdb89d3e.SizeConstraint = Enum.SizeConstraint.RelativeXY
+ee5g7.heh5hhe5dag8hdb89d3e.ClipsDescendants = false
+ee5g7.heh5hhe5dag8hdb89d3e.BorderColor3 = Color3.new(0, 0, 0)
+ee5g7.heh5hhe5dag8hdb89d3e.Selectable = true
+ee5g7.heh5hhe5dag8hdb89d3e.BorderSizePixel = 0
+ee5g7.heh5hhe5dag8hdb89d3e.Rotation = 0
+ee5g7.heh5hhe5dag8hdb89d3e.BackgroundTransparency = 0
+ee5g7.heh5hhe5dag8hdb89d3e.Position = UDim2.new(-0.00239223894, 0, 0.599517167, 0)
+ee5g7.heh5hhe5dag8hdb89d3e.BorderMode = Enum.BorderMode.Outline
+ee5g7.heh5hhe5dag8hdb89d3e.BackgroundColor3 = Color3.new(0, 0, 0)
+ee5g7.heh5hhe5dag8hdb89d3e.TextDirection = Enum.TextDirection.Auto
+ee5g7.heh5hhe5dag8hdb89d3e.TextStrokeColor3 = Color3.new(0, 0, 0)
+ee5g7.heh5hhe5dag8hdb89d3e.TextStrokeTransparency = 1
+ee5g7.heh5hhe5dag8hdb89d3e.TextTruncate = Enum.TextTruncate.None
+ee5g7.heh5hhe5dag8hdb89d3e.RichText = false
+ee5g7.heh5hhe5dag8hdb89d3e.TextColor3 = Color3.new(0, 1, 0)
+ee5g7.heh5hhe5dag8hdb89d3e.TextYAlignment = Enum.TextYAlignment.Center
+ee5g7.heh5hhe5dag8hdb89d3e.Text = "Rejoin"
+ee5g7.heh5hhe5dag8hdb89d3e.FontFace = Font.new("rbxasset://fonts/families/SourceSansPro.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+ee5g7.heh5hhe5dag8hdb89d3e.TextWrapped = true
+ee5g7.heh5hhe5dag8hdb89d3e.TextTransparency = 0
+ee5g7.heh5hhe5dag8hdb89d3e.TextXAlignment = Enum.TextXAlignment.Center
+ee5g7.heh5hhe5dag8hdb89d3e.MaxVisibleGraphemes = -1
+ee5g7.heh5hhe5dag8hdb89d3e.TextScaled = true
 
-f1h17670a5ehg890.gg7231cd1e6.Name = "Flags";
-f1h17670a5ehg890.gg7231cd1e6.Parent = f1h17670a5ehg890.e8088c1a5801f3383hea81f2hdaa997c;
+ee5g7.aah9aea92d95912a49a24h.Name = "Leave"
+ee5g7.aah9aea92d95912a49a24h.Parent = ee5g7.bbah41ae54eb0afg4361chbcg5adh008
+ee5g7.aah9aea92d95912a49a24h.AutoButtonColor = true
+ee5g7.aah9aea92d95912a49a24h.LayoutOrder = 0
+ee5g7.aah9aea92d95912a49a24h.Active = true
+ee5g7.aah9aea92d95912a49a24h.Interactable = true
+ee5g7.aah9aea92d95912a49a24h.AnchorPoint = Vector2.new(0, 0)
+ee5g7.aah9aea92d95912a49a24h.Visible = true
+ee5g7.aah9aea92d95912a49a24h.ZIndex = 11
+ee5g7.aah9aea92d95912a49a24h.AutomaticSize = Enum.AutomaticSize.None
+ee5g7.aah9aea92d95912a49a24h.Size = UDim2.new(0, 180, 0, 29)
+ee5g7.aah9aea92d95912a49a24h.Draggable = false
+ee5g7.aah9aea92d95912a49a24h.SizeConstraint = Enum.SizeConstraint.RelativeXY
+ee5g7.aah9aea92d95912a49a24h.ClipsDescendants = false
+ee5g7.aah9aea92d95912a49a24h.BorderColor3 = Color3.new(0, 0, 0)
+ee5g7.aah9aea92d95912a49a24h.Selectable = true
+ee5g7.aah9aea92d95912a49a24h.BorderSizePixel = 0
+ee5g7.aah9aea92d95912a49a24h.Rotation = 0
+ee5g7.aah9aea92d95912a49a24h.BackgroundTransparency = 0
+ee5g7.aah9aea92d95912a49a24h.Position = UDim2.new(-0.00239223894, 0, 0.793961644, 0)
+ee5g7.aah9aea92d95912a49a24h.BorderMode = Enum.BorderMode.Outline
+ee5g7.aah9aea92d95912a49a24h.BackgroundColor3 = Color3.new(0, 0, 0)
+ee5g7.aah9aea92d95912a49a24h.TextDirection = Enum.TextDirection.Auto
+ee5g7.aah9aea92d95912a49a24h.TextStrokeColor3 = Color3.new(0, 0, 0)
+ee5g7.aah9aea92d95912a49a24h.TextStrokeTransparency = 1
+ee5g7.aah9aea92d95912a49a24h.TextTruncate = Enum.TextTruncate.None
+ee5g7.aah9aea92d95912a49a24h.RichText = false
+ee5g7.aah9aea92d95912a49a24h.TextColor3 = Color3.new(0, 1, 0)
+ee5g7.aah9aea92d95912a49a24h.TextYAlignment = Enum.TextYAlignment.Center
+ee5g7.aah9aea92d95912a49a24h.Text = "Leave Game"
+ee5g7.aah9aea92d95912a49a24h.FontFace = Font.new("rbxasset://fonts/families/SourceSansPro.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+ee5g7.aah9aea92d95912a49a24h.TextWrapped = true
+ee5g7.aah9aea92d95912a49a24h.TextTransparency = 0
+ee5g7.aah9aea92d95912a49a24h.TextXAlignment = Enum.TextXAlignment.Center
+ee5g7.aah9aea92d95912a49a24h.MaxVisibleGraphemes = -1
+ee5g7.aah9aea92d95912a49a24h.TextScaled = true
 
-f1h17670a5ehg890.de2b3c3b400b7c0dh1a.Name = "load";
-f1h17670a5ehg890.de2b3c3b400b7c0dh1a.Value = false;
-f1h17670a5ehg890.de2b3c3b400b7c0dh1a.Parent = f1h17670a5ehg890.gg7231cd1e6;
+ee5g7.c7b8dhf70ch0cc750bh29a69.Name = "Flags"
+ee5g7.c7b8dhf70ch0cc750bh29a69.Parent = ee5g7.bh1726ge8
+
+ee5g7.f0c640c43e7.Name = "load"
+ee5g7.f0c640c43e7.Parent = ee5g7.c7b8dhf70ch0cc750bh29a69
+ee5g7.f0c640c43e7.Value = false
 
 coroutine.wrap(function()
-	local script = Instance.new("LocalScript", f1h17670a5ehg890.hg34db48ggh24g297ceh);
+	local script = Instance.new("LocalScript", ee5g7.a339dfd2c856da447)
 	local Players = game:GetService("Players")
 	local MarketplaceService = game:GetService("MarketplaceService")
 	
@@ -280,10 +280,10 @@ coroutine.wrap(function()
 	else
 		textButton.Text = "ROBLOX > [Unknown Game]"
 	end
-end)();
+end)()
 
 coroutine.wrap(function()
-	local script = Instance.new("LocalScript", f1h17670a5ehg890.aa4b24gb20499hf4ca8ef44ff);
+	local script = Instance.new("LocalScript", ee5g7.fb2ag)
 	local StarterGui = game:GetService("StarterGui")
 	local TextChatService = game:GetService("TextChatService")
 	local Players = game:GetService("Players")
@@ -405,10 +405,10 @@ coroutine.wrap(function()
 	
 	-- Connect button click to toggle or force-enable chat
 	button.MouseButton1Click:Connect(onClick)
-end)();
+end)()
 
 coroutine.wrap(function()
-	local script = Instance.new("LocalScript", f1h17670a5ehg890.bf6d5hca0a472h017);
+	local script = Instance.new("LocalScript", ee5g7.g2g9986g7h5c3fag65f)
 	-- LocalScript inside the leaderboardButton (TextButton)
 	local leaderboardButton = script.Parent
 	local StarterGui = game:GetService("StarterGui")
@@ -428,10 +428,10 @@ coroutine.wrap(function()
 	
 	-- Continuously update the button text
 	RunService.RenderStepped:Connect(updateText)
-end)();
+end)()
 
 coroutine.wrap(function()
-	local script = Instance.new("LocalScript", f1h17670a5ehg890.bfg2eh);
+	local script = Instance.new("LocalScript", ee5g7.heh5hhe5dag8hdb89d3e)
 	-- Script for a "Rejoin Game" button
 	
 	local button = script.Parent -- Assume this script is inside the button
@@ -455,10 +455,10 @@ coroutine.wrap(function()
 	end
 	
 	button.MouseButton1Click:Connect(onButtonClicked)
-end)();
+end)()
 
 coroutine.wrap(function()
-	local script = Instance.new("LocalScript", f1h17670a5ehg890.c147273);
+	local script = Instance.new("LocalScript", ee5g7.aah9aea92d95912a49a24h)
 	-- Script for a "Leave Game" button
 	
 	local button = script.Parent -- Assume this script is inside the button
@@ -482,10 +482,10 @@ coroutine.wrap(function()
 	end
 	
 	button.MouseButton1Click:Connect(onButtonClicked)
-end)();
+end)()
 
 coroutine.wrap(function()
-	local script = Instance.new("LocalScript", f1h17670a5ehg890.e8088c1a5801f3383hea81f2hdaa997c);
+	local script = Instance.new("LocalScript", ee5g7.bh1726ge8)
 	local CoreGui = game:GetService("CoreGui")
 	local Players = game:GetService("Players")
 	local UserInputService = game:GetService("UserInputService")
@@ -581,4 +581,4 @@ coroutine.wrap(function()
 	end, function()
 		UserInputService.MouseIcon = ""
 	end)
-end)();
+end)()
